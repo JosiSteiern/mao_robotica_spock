@@ -5,7 +5,9 @@ Spock II é a evolução da mão robótica de madeira desenvolvida anteriormente
 ⚙️ Equipe:
 
 ▫️ João Victor Izaias: Product Owner, responsável pela montagem da prótese e desenvolvedor;
+
 ▫️ Josiane Steiernagel: Scrum Master, responsável pela programação dos componetes eletrônicos da prótese e desenvolvedora;
+
 ▫️ Lucas de Oliveira This: Progamador, responsável pelo site de apresentação do projeto;
 
 ⚙️ Sobre:
