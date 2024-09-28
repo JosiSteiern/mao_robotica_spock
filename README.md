@@ -1,11 +1,16 @@
-⚙️ Spock II 
+⚙️ Spock II ⚙️
 
-O projeto consiste na criação de uma prótese robótica e no desenvolvimento de um site de apresentação do projeto.
+Spock II é a evolução da mão robótica de madeira desenvolvida anteriormente pela equipe, agora transformada em uma prótese funcional. 
 
-A prótese será feita utilizando impressão 3D e componentes eletrônicos de baixo custo, como: Arduino Uno, servo motores e sensor eletromiográfico de sinal muscular (EMG). 
-O sensor EMG será responsável por captar os sinais musculares, o arduino por interpretar esses sinais e enviá-los para os servo motores, responsáveis pelos movimentos.
+⚙️ Equipe:
 
-O projeto será documentado por meio de um site, que apresentará o protótipo e como foi desenvolvido.
-No site, será possível visualizar um resumo do projeto, a prótese robótica, seus componentes e funcionamento, de forma mais simples e mais técnica, por meio de fotos e videos.
-Haverá também uma área dedicada à apresentação do projeto antecessor, bem como um tutorial de montagem "faça você mesmo". Por fim, será possível visualizar informações sobre os desenvolvedores e referências utilizadas para criação do protótipo.
+▫️ João Victor Izaias: Product Owner, responsável pela montagem da prótese e desenvolvedor;
+▫️ Josiane Steiernagel: Scrum Master, responsável pela programação dos componetes eletrônicos da prótese e desenvolvedora;
+▫️ Lucas de Oliveira This: Progamador, responsável pelo site de apresentação do projeto;
+
+⚙️ Sobre:
+
+A prótese Spock II é fabricada com impressão 3D e utiliza componentes eletrônicos de baixo custo, como Arduino Uno, servomotores e um sensor eletromiográfico (EMG) que capta sinais musculares. O Arduino interpreta esses sinais e os envia para os servomotores, que realizam os movimentos da prótese.
+
+O projeto é documentado em um site que apresenta o protótipo e seu processo de desenvolvimento. Nele, é possível encontrar um resumo do projeto, informações sobre a prótese robótica, seus componentes e funcionamento, tanto de forma simplificada quanto técnica, por meio de fotos e vídeos. O site também inclui uma seção dedicada à apresentação do projeto anterior e um tutorial de montagem "faça você mesmo". Além disso, os desenvolvedores e as referências utilizadas na criação do protótipo estão disponíveis para consulta.
 
