@@ -5,22 +5,25 @@ body{
     background-position: center;
 }
 nav{
+    position: fixed;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }
 .logo{
     margin: 0px 450px 0px 100px;
     color: #F0CB46;
     font-size: 50px;
     text-decoration: none;
-}
+} 
 .logo:hover{
     transition: 1s;
     scale: 1.05;
 }
 .paginas{
     font-size: 35px;
-    margin: -15px 150px 0px 0px;
+    margin: 0px 150px 0px 0px;
+    
     color: white;
     text-decoration: none;
     text-decoration-style: italic;
@@ -31,9 +34,10 @@ nav{
     
 }
 .linha-horizontal{
+    position: absolute;
     display: flex;
-    margin-left: 100px;
-    margin-top: -20px;
+    left: 100px;
+    top: 120px;
     height: 2px;
 }
 .linha-h1{
@@ -81,7 +85,7 @@ nav{
 }
 
 .texto-main1{
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
 }
 .img-esquerda-topo{
     margin: -700px 0px 0px 0px;
