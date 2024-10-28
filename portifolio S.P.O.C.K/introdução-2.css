@@ -188,7 +188,7 @@ nav{
 }
 .img-cont11{
     position: absolute;
-    background-color: #ffc800;
+    background-color: #02D5FF;
     filter: blur(200px);
     height: 600px;
     width: 100%;
@@ -196,7 +196,7 @@ nav{
     z-index: -2;
 }
 .img-cont12{
-    background-color: #ffc800c0;
+    background-color: #02d5ffb4;
     height: 550px;
     width: 100%;
     border-radius: 50%;
@@ -215,7 +215,8 @@ nav{
 .img-cont14{
     position: absolute;
     top: 200px;
-    color: #F0CB46;
+    color: #02D5FF;
+    text-shadow: 0 0 20px black;
     font-size: 1600%;
     z-index: 2;
 }
