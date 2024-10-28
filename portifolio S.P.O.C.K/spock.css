@@ -114,14 +114,14 @@ nav{
 /* fim decoração cabeçalho */
 /* começo conteudo 1 */
 
-.img-esquerda-topo{
+.img-conteudo1{
     position: absolute;
     width: 600px;
     display: flex;
     top: 25%;
     left: 10%;
 }
-.img-esq1{
+.img-cont11{
     position: absolute;
     background-color: #ffc800;
     filter: blur(200px);
@@ -130,7 +130,7 @@ nav{
     border-radius: 50%;
     z-index: -2;
 }
-.img-esq2{
+.img-cont12{
     background-color: #ffc800c0;
     height: 550px;
     width: 100%;
@@ -139,7 +139,7 @@ nav{
     z-index: -1;
     position: absolute;
 }
-.img-esq3{
+.img-cont13{
     position: absolute;
     left: 100px;
     z-index: 1;
@@ -148,7 +148,7 @@ nav{
     width: 140%;
     border: 1px solid;
 }
-.img-esq4{
+.img-cont14{
     position: absolute;
     top: 200px;
     color: #F0CB46;
@@ -156,7 +156,7 @@ nav{
     z-index: 2;
     border: 1px solid;
 }
-.img-esq5{
+.img-cont15{
     position: absolute;
     left: 130px;
     top: -80px;
@@ -165,7 +165,7 @@ nav{
 }
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
-.texto-topo-direito{
+.texto-conteudo1{
     color: white;
     border: 1px solid white;
     position: absolute;
@@ -174,24 +174,24 @@ nav{
     right: 15%;
     padding-bottom: 10%;
 }
-.textos-td1{
+.textos-cont11{
     font-size: 30px;
     margin-bottom: 30px;
     text-shadow: -5px 5px 1px black;
 }
-.textos-td2{
+.textos-cont12{
     font-size: 20px;
     margin-bottom: 20px;
     text-shadow: -5px 5px 1px black;
 }
-.textos-td3{
+.textos-cont13{
     font-size: 20px;
     text-shadow: 3px 3px 1px black;
 }
 /* fim texto conteudo 1 */
 /* fim conteudo 1 */
 /* começo conteudo 2 */
-.texto-main2{
+.texto-conteudo2{
     position: absolute;
     top: 900px;
     left: 200px;
@@ -200,7 +200,7 @@ nav{
     color: white;
     border: 1px solid white;
 }
-.titulo-m11{
+.textos-cont21{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -210,7 +210,7 @@ nav{
 /* fim conteudo 2 */
 /* começo conteudo 3 */
 /* começo texto conteudo 3 */
-.textom2{
+.texto-conteudo31{
     position: absolute;
     top: 1650px;
     left: 100px;
@@ -219,27 +219,27 @@ nav{
     border: 1px solid white;
     font-size: 150%;
 }
-.texto-m21{
+.texto-cont32{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
     font-size: 200%;
     text-shadow: -5px 5px 1px black;
 }
-.texto-m22{
+.texto-cont33{
     font-size: 120%;
 }
-.texto-m23{
+.texto-cont34{
     margin-bottom: 40px;
 }
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
-.img-texto-m2{
+.img-conteudo3{
     position: absolute;
     top: 1650px;
     left: 850px;
 }
-.formas1{
+.img-cont31{
     position: absolute;
     left: 200px;
     background-color: white;
@@ -247,7 +247,7 @@ nav{
     height: 600px;
     border-radius: 50%;
 }
-.formas2{
+.img-cont32{
     position: absolute;
     left: 50px;
     background-color: rgb(87, 87, 87);
@@ -255,7 +255,7 @@ nav{
     height: 300px;
     border-radius: 50%;
 }
-.formas3{
+.img-cont33{
     position: absolute;
     left: 600px;
     top: 300px;
@@ -268,15 +268,15 @@ nav{
 /* fim conteudo 3 */
 /* começo conteudo 4 */
 /* começo formas conteudo 4 */
-.texto-main4{
+.texto-conteudo4{
     position: absolute;
     top: 2450px;
     left: 300px;
 }
-.imagens{
+.img-conteudo4{
     display: flex;
 }
-.img1{
+.img-cont41{
     position: absolute;
     background-color: rgba(81, 56, 223, 0.253);
     filter: drop-shadow(-30px 30px 30px);
@@ -284,7 +284,7 @@ nav{
     height: 900px;
     border: 1px solid white;
 }
- .img2{
+ .img-cont42{
     position: absolute;
     top:230px;
     left: 550px;
@@ -294,7 +294,7 @@ nav{
     height: 500px;
     border: 1px solid white;
 }
-.img3{
+.img-cont43{
     position: absolute;
     top: 230px;
     left: 80px;
