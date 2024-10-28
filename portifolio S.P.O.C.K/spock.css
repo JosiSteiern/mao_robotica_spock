@@ -12,7 +12,7 @@ body{
 }
 .container-main{
     max-width: 100%;
-    height: 2000px;
+    height: 3500px;
 }
 /* começo cabeçalho */
 header{
@@ -116,23 +116,24 @@ nav{
 
 .img-esquerda-topo{
     position: absolute;
-    width: 100%;
+    width: 600px;
     display: flex;
     top: 25%;
     left: 10%;
 }
 .img-esq1{
-    background-color: #ffc80086;
-    filter: blur(200px);
-    height: 800px;
-    width: 50%;
     position: absolute;
+    background-color: #ffc800;
+    filter: blur(200px);
+    height: 600px;
+    width: 100%;
+    border-radius: 50%;
     z-index: -2;
 }
 .img-esq2{
     background-color: #ffc800c0;
     height: 550px;
-    width: 30%;
+    width: 100%;
     border-radius: 50%;
     filter: drop-shadow(-40px 40px 10px );
     z-index: -1;
@@ -176,13 +177,169 @@ nav{
 .textos-td1{
     font-size: 30px;
     margin-bottom: 30px;
+    text-shadow: -5px 5px 1px black;
 }
 .textos-td2{
     font-size: 20px;
     margin-bottom: 20px;
+    text-shadow: -5px 5px 1px black;
 }
 .textos-td3{
     font-size: 20px;
+    text-shadow: 3px 3px 1px black;
 }
 /* fim texto conteudo 1 */
 /* fim conteudo 1 */
+/* começo conteudo 2 */
+.texto-main2{
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    right: 200px;
+    font-size: 200%;
+    color: white;
+    border: 1px solid white;
+}
+.titulo-m11{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 300%;
+    text-shadow: -5px 5px 1px black;
+}
+/* fim conteudo 2 */
+/* começo conteudo 3 */
+/* começo texto conteudo 3 */
+.textom2{
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    color: white;
+    width: 700px;
+    border: 1px solid white;
+    font-size: 150%;
+}
+.texto-m21{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 200%;
+    text-shadow: -5px 5px 1px black;
+}
+.texto-m22{
+    font-size: 120%;
+}
+.texto-m23{
+    margin-bottom: 40px;
+}
+/* fim texto conteudo 3 */
+/* começo imagens conteudo 3 */
+.img-texto-m2{
+    position: absolute;
+    top: 1650px;
+    left: 850px;
+}
+.formas1{
+    position: absolute;
+    left: 200px;
+    background-color: white;
+    width:600px ;
+    height: 600px;
+    border-radius: 50%;
+}
+.formas2{
+    position: absolute;
+    left: 50px;
+    background-color: rgb(87, 87, 87);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.formas3{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    background-color: rgb(173, 173, 173);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+/* fim imagens conteudo 3 */
+/* fim conteudo 3 */
+/* começo conteudo 4 */
+/* começo formas conteudo 4 */
+.texto-main4{
+    position: absolute;
+    top: 2450px;
+    left: 300px;
+}
+.imagens{
+    display: flex;
+}
+.img1{
+    position: absolute;
+    background-color: rgba(81, 56, 223, 0.253);
+    filter: drop-shadow(-30px 30px 30px);
+    width: 700px;
+    height: 900px;
+    border: 1px solid white;
+}
+ .img2{
+    position: absolute;
+    top:230px;
+    left: 550px;
+    background-color: rgb(56, 77, 148);
+    filter: drop-shadow(30px 30px);
+    width: 700px;
+    height: 500px;
+    border: 1px solid white;
+}
+.img3{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    background-color: rgba(88, 53, 128, 0.349);
+    filter: drop-shadow(-5px 5px 10px);
+    height: 250px;
+    width: 180px;
+    border: 1px solid white;
+}
+/* fim formas conteudo 4 */
+/* começo textos conteudo 4 */
+.texto-cont41{
+    font-size: 500%;
+    position: absolute;
+    left: 800px;
+    color: white;
+    border: 1px solid;
+}
+.texto-cont42{
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    right: 150px;
+    border: 1px solid;
+}
+.texto-cont43{ 
+    font-size: 180%;
+    color: white;
+    position: absolute;  
+    left: 100px;
+    top: 100px;
+    right: 100px;
+    border: 1px solid;
+}
+.texto-cont44{
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    right: 20px;
+    border: 1px solid;
+
+}
+/* fim texto conteudo 4 */
+/* fim conteudo 4 */
