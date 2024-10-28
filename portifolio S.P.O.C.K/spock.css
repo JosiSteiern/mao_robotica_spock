@@ -9,19 +9,23 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    overflow-x: hidden;
 }
 .container-main{
     max-width: 100%;
-    height: 3500px;
+    height: 5000px;
 }
+
+
+
 /* começo cabeçalho */
 header{
     display: flex;
     align-items: center;
     position: fixed;
+    z-index: 10;
     width: 100%;
     height: 100px;
-    border: 1px solid red;
     padding: 80px;
 }
 nav{
@@ -30,13 +34,11 @@ nav{
     display: flex;
     justify-content: end;
     align-items: center;
-    border: 1px solid rgb(255, 255, 255);
 }
 .logo{
     width: 300px;
     color: #F0CB46;
     font-size: 300%;
-    border: 1px solid ;
 } 
 .logo:hover{
     transition: 1s;
@@ -52,6 +54,9 @@ nav{
     color: #F0CB46;
 }
 /* fim cabeçalho */
+
+
+
 /* começo decoração cabeçalho */
 
 .linha-horizontal{
@@ -73,11 +78,7 @@ nav{
     width: 40px;
     margin-right: 1%;
 }
-.linha-h3{
-    background-color: white;
-    width: 40px;
-    margin-right: 1%;
-}
+
 
 .linha-vertical{
     position: absolute;
@@ -86,39 +87,103 @@ nav{
     width: 2px;
 }
 .linha-v1{
-    margin: -140px 0px 0px 0px;
+    margin-top: -130px;
     background-color: white;
     height:700px;
 }
 .linha-v2{
-    margin: 30px 0px 0px 0px;
+    margin-top: 30px;
     background-color: white;
     height: 40px;
-}
-.linha-v3{
-    margin: 30px 0px 0px 0px;
-    background-color: white;
-    height: 40px;
-}
-.linha-v4{
-    margin: 30px 0px 0px 0px;
-    background-color: white;
-    height: 40px;
-}
-.linha-v5{
-    margin: 30px 0px 0px 0px;
-    background-color: white;
-    width: 40px;
 }
 
 /* fim decoração cabeçalho */
+/* começo decoraçao fundo luzes */
+.decor-fundo1{
+    position: absolute;
+    top: 200px;
+    right: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo2{
+    position: absolute;
+    top: 1200px;
+    left: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo3{
+    position: absolute;
+    top: 2100px;
+    left: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo4{
+    position: absolute;
+    top: 2900px;
+    right: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo5{
+    position: absolute;
+    top: 1900px;
+    right: -300px;
+    background-color: #FFC800;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo6{
+    position: absolute;
+    top: 3600px;
+    right: -400px;
+    background-color: #ffc800;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo7{
+    position: absolute;
+    top: 3600px;
+    left: -400px;
+    background-color: #ffc800;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+/* fim decoraçao fundo luzes */
 /* começo conteudo 1 */
 
 .img-conteudo1{
     position: absolute;
     width: 600px;
     display: flex;
-    top: 25%;
+    top: 28%;
     left: 10%;
 }
 .img-cont11{
@@ -146,7 +211,6 @@ nav{
 }
 .imagem-1{
     width: 140%;
-    border: 1px solid;
 }
 .img-cont14{
     position: absolute;
@@ -154,7 +218,6 @@ nav{
     color: #F0CB46;
     font-size: 1600%;
     z-index: 2;
-    border: 1px solid;
 }
 .img-cont15{
     position: absolute;
@@ -167,29 +230,28 @@ nav{
 /* começo texto conteudo 1 */
 .texto-conteudo1{
     color: white;
-    border: 1px solid white;
     position: absolute;
-    top: 30%;
-    left: 45%;
-    right: 15%;
+    top: 35%;
+    left: 50%;
+    right: 12%;
     padding-bottom: 10%;
 }
 .textos-cont11{
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     text-shadow: -5px 5px 1px black;
 }
 .textos-cont12{
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 25px;
+    margin-bottom: 50px;
     text-shadow: -5px 5px 1px black;
 }
-.textos-cont13{
-    font-size: 20px;
-    text-shadow: 3px 3px 1px black;
-}
+
 /* fim texto conteudo 1 */
 /* fim conteudo 1 */
+
+
+
 /* começo conteudo 2 */
 .texto-conteudo2{
     position: absolute;
@@ -198,7 +260,6 @@ nav{
     right: 200px;
     font-size: 200%;
     color: white;
-    border: 1px solid white;
 }
 .textos-cont21{
     display: flex;
@@ -208,6 +269,9 @@ nav{
     text-shadow: -5px 5px 1px black;
 }
 /* fim conteudo 2 */
+
+
+
 /* começo conteudo 3 */
 /* começo texto conteudo 3 */
 .texto-conteudo31{
@@ -216,7 +280,6 @@ nav{
     left: 100px;
     color: white;
     width: 700px;
-    border: 1px solid white;
     font-size: 150%;
 }
 .texto-cont32{
@@ -228,9 +291,7 @@ nav{
 }
 .texto-cont33{
     font-size: 120%;
-}
-.texto-cont34{
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
@@ -266,6 +327,9 @@ nav{
 }
 /* fim imagens conteudo 3 */
 /* fim conteudo 3 */
+
+
+
 /* começo conteudo 4 */
 /* começo formas conteudo 4 */
 .texto-conteudo4{
@@ -282,7 +346,6 @@ nav{
     filter: drop-shadow(-30px 30px 30px);
     width: 700px;
     height: 900px;
-    border: 1px solid white;
 }
  .img-cont42{
     position: absolute;
@@ -292,7 +355,6 @@ nav{
     filter: drop-shadow(30px 30px);
     width: 700px;
     height: 500px;
-    border: 1px solid white;
 }
 .img-cont43{
     position: absolute;
@@ -302,7 +364,6 @@ nav{
     filter: drop-shadow(-5px 5px 10px);
     height: 250px;
     width: 180px;
-    border: 1px solid white;
 }
 /* fim formas conteudo 4 */
 /* começo textos conteudo 4 */
@@ -311,35 +372,331 @@ nav{
     position: absolute;
     left: 800px;
     color: white;
-    border: 1px solid;
 }
 .texto-cont42{
     font-size: 150%;
     color: white;
     position: absolute;
-    top: 600px;
-    left: 100px;
-    right: 150px;
-    border: 1px solid;
+    top: 65%;
+    left: 10%;
+    right: 25%;
 }
 .texto-cont43{ 
     font-size: 180%;
     color: white;
     position: absolute;  
-    left: 100px;
-    top: 100px;
-    right: 100px;
-    border: 1px solid;
+    left: 10%;
+    top: 20%;
+    right: 10%;
 }
 .texto-cont44{
     color: white;
     font-size: 120%;
     position: absolute;
-    left: 20px;
-    top: 20px;
-    right: 20px;
-    border: 1px solid;
+    left: 10%;
+    top: 10%;
+    right: 5%;
 
 }
 /* fim texto conteudo 4 */
 /* fim conteudo 4 */
+
+
+
+/* começo conteudo 5 */
+.conteudo5{
+    position: absolute;
+    width: 100%;
+    top: 3500px;
+}
+/* começo conteudo 5-1 */
+/* começo linhas elementos1 */
+.cont5-linha11{
+    position: absolute;
+    left: 63%;
+    top: 60px;
+    width: 400px;
+    height: 150px;
+    border-radius: 0px 100px 0px 0px;
+    border: 3px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-left: none;
+}
+.cont5-linha12{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    width: 700px;
+    height: 3px;
+    background-color: white;
+}
+/* fim linhas elementos1 */
+/* começo imagens elementos2 */
+.cont5-imagens1{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+.cont5-imag11{
+    background-color: white;
+    width: 167px;
+    height: 216px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: 8px solid #ccc;
+}
+/* fim imagem elementos2 */
+/* começo decoração das imagens elemento2 */
+.cont5-dec-imag11{
+    position: absolute;
+    left: 167px;
+    top: 90px;
+    background-color: #ccc;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+}
+.cont5-dec-imag12{
+    position: absolute;
+    left: 384px;
+    top: 30px;
+    background-color: #ccc;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+
+}
+/* fim decoração das imagens elemento2 */
+/* começo elementos3 */
+.cont5-elementos3{
+    color: white;
+    font-size: 400%;
+    position: absolute;
+    left: 750px;
+    top: 70px;
+}
+/* fim elementos3 */
+/* começo elemento 4 */
+/* começo elemento 4 quadrado */
+.cont5-quadrado{
+    background-color: #5A5B77;
+    border-radius: 50px;
+    width: 1300px;
+    height: 250px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: -1;
+}
+/* fime elemento 4 quadrado */
+/* começo elemento 4 texto */
+.cont5-texto-quadrado{
+    color: white;
+    font-size: 170%;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    right: 450px;
+}
+/* fim elemento 4 texto */
+/* fim elemento 4 */
+/* fim  conteudo 5-1 */
+
+/* começo do conteudo 5-2 */
+.conteudo5-2{
+    position: absolute;
+    width: 100%;
+    top: 500px;
+}
+/* começo linhas elementos 2-1 */
+.cont5-linha21{
+    position: absolute;
+    right: 65%;
+    top: 60px;
+    width: 400px;
+    height: 150px;
+    border-radius: 100px 0px 0px 0px;
+    border: 3px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-right: none;
+}
+.cont5-linha22{
+    position: absolute;
+    top: 50px;
+    right: 43%;
+    width: 700px;
+    height: 3px;
+    background-color: white;
+}
+/* fim linhas elementos 2-1 */
+/* começo imagens elementos 2-2 */
+.cont5-imagens21{
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 40px;
+}
+.cont5-imag21{
+    background-color: white;
+    width: 167px;
+    height: 216px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: 8px solid #ccc;
+}
+/* fim imagem elementos 2-2 */
+/* começo decoração das imagens elemento 2-2 */
+.cont5-dec-imag21{
+    position: absolute;
+    left: 167px;
+    top: 90px;
+    background-color: #ccc;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+}
+.cont5-dec-imag22{
+    position: absolute;
+    left: 384px;
+    top: 30px;
+    background-color: #ccc;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+
+}
+/* fim decoração das imagens elemento 2-2 */
+/* começo elementos 2-3 */
+.cont5-elementos23{
+    color: white;
+    font-size: 400%;
+    position: absolute;
+    left: 450px;
+    top: 70px;
+}
+/* fim elementos 2-3 */
+/* começo elemento 2-4 */
+/* começo elemento 2-4 quadrado */
+.cont5-quadrado2{
+    background-color: #5A5B77;
+    border-radius: 50px;
+    width: 1300px;
+    height: 250px;
+    position: absolute;
+    right: 10%;
+    top: 150px;
+    z-index: -1;
+}
+/* fime elemento 2-4 quadrado */
+/* começo elemento 2-4 texto */
+.cont5-texto-quadrado2{
+    color: white;
+    font-size: 170%;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+    right: 750px;
+}
+/* fim elemento 2-4 texto */
+/* fim elemento 2-4 */
+/* fim do conteudo 5-2 */
+
+/* começo do conteudo 5-3 */
+.conteudo5-3{
+    position: absolute;
+    width: 100%;
+    top: 1000px;
+}
+/* começo conteudo 5-1 */
+/* começo linhas elementos1 */
+.cont5-linha31{
+    position: absolute;
+    left: 63%;
+    top: 60px;
+    width: 400px;
+    height: 150px;
+    border-radius: 0px 100px 0px 0px;
+    border: 3px solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-left: none;
+}
+.cont5-linha32{
+    position: absolute;
+    top: 50px;
+    left: 40%;
+    width: 700px;
+    height: 3px;
+    background-color: white;
+}
+/* fim linhas elementos1 */
+/* começo imagens elementos2 */
+.cont5-imagens31{
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 40px;
+}
+.cont5-imag31{
+    background-color: white;
+    width: 167px;
+    height: 216px;
+    margin-right: 50px;
+    border-radius: 30px;
+    border: 8px solid #ccc;
+}
+/* fim imagem elementos2 */
+/* começo decoração das imagens elemento2 */
+.cont5-dec-imag31{
+    position: absolute;
+    left: 167px;
+    top: 90px;
+    background-color: #ccc;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+}
+.cont5-dec-imag32{
+    position: absolute;
+    left: 384px;
+    top: 30px;
+    background-color: #ccc;
+    width: 50px;
+    height: 100px;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+
+}
+/* fim decoração das imagens elemento2 */
+/* começo elementos3 */
+.cont5-elementos33{
+    color: white;
+    font-size: 400%;
+    position: absolute;
+    left: 750px;
+    top: 70px;
+}
+/* fim elementos3 */
+/* começo elemento 4 */
+/* começo elemento 4 quadrado */
+.cont5-quadrado32{
+    background-color: #5A5B77;
+    border-radius: 50px;
+    width: 1300px;
+    height: 250px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: -1;
+}
+/* fime elemento 4 quadrado */
+/* começo elemento 4 texto */
+.cont5-texto-quadrado32{
+    color: white;
+    font-size: 170%;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    right: 450px;
+}
+/* fim do conteudo 5-3 */
+/* fim conteudo 5 */
