@@ -1,0 +1,480 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+.container-main{
+    max-width: 100%;
+    height: 5000px;
+}
+
+
+
+/* começo cabeçalho */
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100px;
+    padding: 80px;
+}
+nav{
+    width: 75%;
+    height: 57px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.logo{
+    width: 300px;
+    color: #F0CB46;
+    font-size: 300%;
+} 
+.logo:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+.paginas{
+    margin-right: 50px;
+    font-size: 200%;
+    color: white;
+}
+.paginas:hover{
+    transition: 1s;
+    color: #F0CB46;
+}
+/* fim cabeçalho */
+
+
+
+/* começo decoração cabeçalho */
+
+.linha-horizontal{
+    position: absolute;
+    display: flex;
+    left: 50px;
+    top: 135px;
+    height: 2px;
+    max-width: 100%;
+    
+}
+.linha-h1{
+    background-color: white;
+    width: 1700px;
+    margin-right: 1%;
+}
+.linha-h2{
+    background-color: white;
+    width: 40px;
+    margin-right: 1%;
+}
+
+
+.linha-vertical{
+    position: absolute;
+    top: 170px;
+    left: 90%;
+    width: 2px;
+}
+.linha-v1{
+    margin-top: -130px;
+    background-color: white;
+    height:700px;
+}
+.linha-v2{
+    margin-top: 30px;
+    background-color: white;
+    height: 40px;
+}
+
+/* fim decoração cabeçalho */
+/* começo decoraçao fundo luzes */
+.decor-fundo1{
+    position: absolute;
+    top: 200px;
+    right: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo2{
+    position: absolute;
+    top: 1200px;
+    left: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo3{
+    position: absolute;
+    top: 2100px;
+    left: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo4{
+    position: absolute;
+    top: 2900px;
+    right: -300px;
+    background-color: #003A79;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo5{
+    position: absolute;
+    top: 1900px;
+    right: -300px;
+    background-color: #FFC800;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo6{
+    position: absolute;
+    top: 3600px;
+    right: -400px;
+    background-color: #ffc800;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+.decor-fundo7{
+    position: absolute;
+    top: 3600px;
+    left: -400px;
+    background-color: #ffc800;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    z-index: -3;
+}
+/* fim decoraçao fundo luzes */
+/* começo conteudo 1 */
+
+.img-conteudo1{
+    position: absolute;
+    width: 600px;
+    display: flex;
+    top: 28%;
+    left: 10%;
+}
+.img-cont11{
+    position: absolute;
+    background-color: #ffc800;
+    filter: blur(200px);
+    height: 600px;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -2;
+}
+.img-cont12{
+    background-color: #ffc800c0;
+    height: 550px;
+    width: 100%;
+    border-radius: 50%;
+    filter: drop-shadow(-40px 40px 10px );
+    z-index: -1;
+    position: absolute;
+}
+.img-cont13{
+    position: absolute;
+    left: 100px;
+    z-index: 1;
+}
+.imagem-1{
+    width: 140%;
+}
+.img-cont14{
+    position: absolute;
+    top: 200px;
+    color: #F0CB46;
+    font-size: 1600%;
+    z-index: 2;
+}
+.img-cont15{
+    position: absolute;
+    left: 130px;
+    top: -80px;
+    z-index: 3;
+    
+}
+.botao-cor{
+    position: absolute;
+    right: -1000px;;
+    top: 200px;
+    width: 70px;
+    height: 100px;
+    background-color: #ccc;
+    clip-path: polygon(0 0, 0 100%, 50% 50%);
+    z-index: 1;
+}
+/* começo imagem conteudo 1 */
+/* começo texto conteudo 1 */
+.texto-conteudo1{
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    right: 12%;
+    padding-bottom: 10%;
+}
+.textos-cont11{
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-shadow: -5px 5px 1px black;
+}
+.textos-cont12{
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-shadow: -5px 5px 1px black;
+}
+
+/* fim texto conteudo 1 */
+/* fim conteudo 1 */
+
+
+
+/* começo conteudo 2 */
+/* começo titulos conteudo 2 */
+.conteudo-2{
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+}
+.cont2-titulo{
+    display: flex;
+    font-size: 300%;
+    justify-content: center;
+    color: white;
+}
+.cont2-titulo1{
+    margin-right: 50px;
+}
+/* fim titulos conteudo 2 */
+/* começo imagens conteudo 2 */
+.cont2-linha1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont2-linha2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cont2-img1{
+    width: 420px;
+    height: 300px;
+    background-color: white;
+    margin: 50px;
+}
+.cont2-img2{
+    width: 420px;
+    height: 300px;
+    background-color: white;
+    margin: 50px;
+}
+.cont2-img3{
+    width: 420px;
+    height: 300px;
+    background-color: white;
+    margin: 50px;
+}
+.cont2-img4{
+    
+    width: 420px;
+    height: 300px;
+    background-color: white;
+    margin: 50px;
+}
+.cont2-img5{
+    width: 420px;
+    height: 300px;
+    background-color: white;
+    margin: 50px;
+}
+/* fim imagens conteudo 2 */
+/* texto conteudo 2 */
+.cont2-texto1{
+    font-size: 180%;
+    width: 420px;
+    height: 300px;
+    color: white;
+    margin: 50px;
+}
+/* fim do texto conteudo 2 */
+/* fim conteudo 2 */
+
+
+
+/* começo conteudo 3 */
+/* começo texto conteudo 3 */
+.texto-conteudo31{
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+    color: white;
+    width: 700px;
+    font-size: 150%;
+}
+.texto-cont32{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 200%;
+    text-shadow: -5px 5px 1px black;
+}
+.texto-cont33{
+    font-size: 120%;
+    margin-bottom: 40px
+}
+/* fim texto conteudo 3 */
+/* começo imagens conteudo 3 */
+.img-conteudo3{
+    position: absolute;
+    top: 2000px;
+    left: 850px;
+}
+.img-cont31{
+    position: absolute;
+    left: 200px;
+    background-color: white;
+    width:600px ;
+    height: 600px;
+    border-radius: 50%;
+}
+.img-cont32{
+    position: absolute;
+    left: 50px;
+    background-color: rgb(87, 87, 87);
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.img-cont33{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    background-color: rgb(173, 173, 173);
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+/* fim imagens conteudo 3 */
+/* fim conteudo 3 */
+
+
+
+/* começo conteudo 4 */
+/* começo formas conteudo 4 */
+.texto-conteudo4{
+    position: absolute;
+    top: 2800px;
+    left: 300px;
+}
+.img-conteudo4{
+    display: flex;
+}
+.img-cont41{
+    position: absolute;
+    background-color: rgba(81, 56, 223, 0.253);
+    filter: drop-shadow(-30px 30px 30px);
+    width: 700px;
+    height: 900px;
+}
+ .img-cont42{
+    position: absolute;
+    top:230px;
+    left: 550px;
+    background-color: rgb(56, 77, 148);
+    filter: drop-shadow(30px 30px);
+    width: 700px;
+    height: 500px;
+}
+.img-cont43{
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    background-color: rgba(88, 53, 128, 0.349);
+    filter: drop-shadow(-5px 5px 10px);
+    height: 250px;
+    width: 180px;
+}
+/* fim formas conteudo 4 */
+/* começo textos conteudo 4 */
+.texto-cont41{
+    font-size: 500%;
+    position: absolute;
+    left: 800px;
+    color: white;
+}
+.texto-cont42{
+    font-size: 150%;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    right: 25%;
+}
+.texto-cont43{ 
+    font-size: 180%;
+    color: white;
+    position: absolute;  
+    left: 10%;
+    top: 20%;
+    right: 10%;
+}
+.texto-cont44{
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: 5%;
+
+}
+/* fim texto conteudo 4 */
+/* fim conteudo 4 */
+
+
+
+/* começo conteudo 5 */
+/* fim conteudo 5 */
+
+
+
+/* começo conteudo 6 */
+/* fim conteudo 6 */
+
+
+
+/* começo conteudo 7 */
+/* fim conteudo 7 */
