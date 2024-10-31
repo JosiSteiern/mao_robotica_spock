@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow-x: hidden;
+    
 }
 .container-main{
     max-width: 100%;
@@ -25,6 +25,7 @@ header{
     width: 100%;
     height: 15vh;
     padding: 3%;
+    border: 0.1vh solid white;
 }
 nav{
     width: 75%;
@@ -32,12 +33,14 @@ nav{
     display: flex;
     justify-content: end;
     align-items: center;
+    border: 0.1vh solid red;
 }
 .logo{
     width: 15%;
     height: 6vh;
     color: #F0CB46;
     font-size: 5vh;
+    border: 0.1vh solid;
 } 
 .logo:hover{
     transition: 1s;
@@ -96,93 +99,94 @@ nav{
 
 /* fim decoração cabeçalho */
 /* começo decoraçao fundo luzes */
-.decor-fundo1{
+/* .decor-fundo1{
     position: absolute;
-    top: 70vh;
-    right: -50vh;
+    top: 200px;
+    right: -300px;
     background-color: #003A79;
-    filter: blur(30vh);
-    height: 100vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
 }
 .decor-fundo2{
     position: absolute;
-    top: 160vh;
-    left: -50vh;
+    top: 1200px;
+    left: -300px;
     background-color: #003A79;
-    filter: blur(30vh);
-    height: 100vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
 }
 .decor-fundo3{
     position: absolute;
-    top: 270vh;
-    left: -50vh;
+    top: 2100px;
+    left: -300px;
     background-color: #003A79;
-    filter: blur(30vh);
-    height: 100vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
 }
 .decor-fundo4{
     position: absolute;
-    top: 300vh;
-    right: -50vh;
+    top: 2900px;
+    right: -300px;
     background-color: #003A79;
-    filter: blur(30vh);
-    height: 100vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(200px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
 }
 .decor-fundo5{
     position: absolute;
-    top: 200vh;
-    right: -50vh;
+    top: 1900px;
+    right: -300px;
     background-color: #FFC800;
-    filter: blur(30vh);
-    height: 100vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
 }
 .decor-fundo6{
     position: absolute;
-    top: 400vh;
-    right: -50vh;
+    top: 3600px;
+    right: -400px;
     background-color: #ffc800;
-    filter: blur(30vh);
-    height: 90vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
 }
 .decor-fundo7{
     position: absolute;
-    top: 430vh;
-    left: -50vh;
+    top: 3600px;
+    left: -400px;
     background-color: #ffc800;
-    filter: blur(30vh);
-    height: 100vh;
-    width: 65vh;
-    border-radius: 30vh;
+    filter: blur(250px);
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
     z-index: -3;
-}
+} */
 /* fim decoraçao fundo luzes */
 /* começo conteudo 1 */
 
 .conteudo-1{
-    margin-top: 10vh;
     width: 100%;
     height: 70vh;
+    border: 0.1vh solid white;
     display: flex;
 }
 .conteudo-1-container-1{
+    border: 0.1vh solid rgb(0, 4, 255);
     height: 100%;
     width: 30%;
     margin-left: 10%;
@@ -209,13 +213,12 @@ nav{
 .container-1-imagem-3{
     position: absolute;
     left: 14%;
-    top: 28vh;
     width: 23vh;
     z-index: 1;
 }
 .container-1-imagem-4{
     position: absolute;
-    top: 50vh;
+    top: 40%;
     color: #F0CB46;
     font-size: 29vh;
     filter: drop-shadow( -1vh 1vh 1vh black);
@@ -223,7 +226,7 @@ nav{
 }
 .container-1-imagem-5{
     position: absolute;
-    top: 20vh;
+    top: 12%;
     left: 18%;
     width: 23vh;
     z-index: 3;
@@ -249,6 +252,7 @@ nav{
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
 .conteudo-1-container-2{
+    border: 0.1vh solid red;
     width: 40%;
 }
 .container-2-texto{
@@ -274,19 +278,23 @@ nav{
 /* começo conteudo 2 */
 .conteudo-2{
     margin-top: 10vh;
+    border: 0.1vh solid white;
     font-size: 200%;
     color: white;
 }
 .conteudo-2-texto-1{
+    border: 0.1vh solid rgb(255, 0, 0);
     display: flex;
     justify-content: center;
+    margin: 0vh 70vh;
     margin-bottom: 10vh;
     font-size: 10vh;
     text-shadow: -0.8vh 0.8vh black;
 }
 .conteudo-2-texto-2{
-    margin: 0vh 23vh;
-    font-size: 4vh;
+    border: 0.1vh solid blue;
+    margin: 0vh 15vh;
+    font-size: 5vh;
 }
 /* fim conteudo 2 */
 
@@ -296,6 +304,7 @@ nav{
 /* começo texto conteudo 3 */
 .conteudo-3{
     margin-top: 10vh;
+    border: 0.1vh solid white;
     color: white;
     width: 100%;
     height: 80vh;
@@ -303,6 +312,7 @@ nav{
     display: flex;
 }
 .conteudo-3-texto{
+    border: 0.1vh solid red;
     width: 45%;
     padding: 3%;
     padding-top: 0;
@@ -323,32 +333,31 @@ nav{
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
 .conteudo-3-imagem{
+    border: 0.1vh solid blue;
     width: 55%;
     margin: 5% 0%;
 }
 .conteudo-3-imagem-1{
     position: absolute;
-    top: 215vh;
-    left: 60%;
-    background-color: rgba(255, 255, 255, 0.205);
+    left: 56%;
+    background-color: white;
     width:60vh;
     height: 60vh;
     border-radius: 50%;
 }
 .conteudo-3-imagem-2{
     position: absolute;
-    top: 210vh;
-    left: 55%;
-    background-color: rgba(255, 255, 255, 0.514);
-    width: 25vh;
-    height: 25vh;
+    left: 48%;
+    background-color: rgb(87, 87, 87);
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
 }
 .conteudo-3-imagem-3{
     position: absolute;
-    top: 250vh;
-    left: 50%;
-    background-color: rgba(255, 255, 255, 0.671);
+    top: 240vh;
+    left: 78%;
+    background-color: rgb(173, 173, 173);
     width: 40vh;
     height: 40vh;
     border-radius: 50%;
@@ -362,8 +371,10 @@ nav{
 /* começo formas conteudo 4 */
 .conteudo-4{
     margin-top: 10vh;
+    border: 0.1vh solid white;
 }
 .conteudo-4-elemento-1{
+    border: 0.1vh solid red;
     width: 40%;
     margin-left: 10%;
     display: flex;
@@ -378,6 +389,7 @@ nav{
     position: absolute;
     margin-top: -40%;
     left: 45%;
+    border: 0.1vh solid rgb(0, 4, 255);
     width: 45%;
 }
  .conteudo-4-forma-2{
@@ -390,6 +402,7 @@ nav{
     position: absolute;
     margin-top: -45%;
     left: 15%;
+    border: 0.1vh solid rgb(0, 255, 64);
     width: 20vh;
     height: 27vh;
 }
@@ -440,8 +453,9 @@ nav{
 /* começo conteudo 5 */
 .conteudo-5{
     margin-top: 10vh;
+    border: 0.1vh solid white;
     width: 100%;
-    height: 161vh;
+    height: 154vh;
 }
 /* começo conteudo 5-1 */
 .conteudo-5-1{
@@ -651,6 +665,7 @@ nav{
 
 
 /* começo do conteudo 5-3 */
+/* começo conteudo 5-1 */
 .conteudo-5-3{
     position: absolute;
     top: 507vh;
@@ -748,43 +763,6 @@ nav{
     top: 5vh;
 }
 /* fim elemento 4 */
+/* fim  conteudo 5-1 */
 /* fim do conteudo 5-3 */
 /* fim conteudo 5 */
-
-
-
-/* começo rodapé */
-.linha-horizontal-rodape{
-    margin-top: 10%;
-    width: 100%;
-    height: 1vh;
-    display: flex;
-}
-.linha-rodape-1{
-    background-color: white;
-    width: 83%;
-    height: 0.3vh;
-    margin-left: 5%;
-
-}
-.linha-rodape-2{
-    background-color: white;
-    width: 2%;
-    height: 0.3vh;
-    margin-left: 1%;
-}
-
-.rodape-paginas{
-    margin-top: 3%;
-    margin-bottom: 1%;
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    margin-left: 30%;
-}
-.rodape-paginas-1{
-    color: white;
-    margin-right: 8%;
-}
-/* fim rodapé */
