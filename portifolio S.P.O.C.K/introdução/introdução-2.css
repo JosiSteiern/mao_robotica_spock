@@ -5,20 +5,15 @@
     text-decoration: none;
 }
 body{
-    background-image: url(img/1.jpg);
+    background-image: url(1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
 }
 .container-main{
-<<<<<<< HEAD
-    width: 100%;
-    height: 2000px;
-=======
     max-width: 100%;
     height: 5000px;
->>>>>>> 42352311fedf1b0a91e1d3f811386212d4ff1944
 }
 
 
@@ -32,7 +27,6 @@ header{
     width: 100%;
     height: 100px;
     padding: 80px;
-    border: 1px solid white;
 }
 nav{
     width: 75%;
@@ -40,13 +34,11 @@ nav{
     display: flex;
     justify-content: end;
     align-items: center;
-    border: 1px solid red;
 }
 .logo{
     width: 300px;
     color: #F0CB46;
     font-size: 300%;
-    border: 1px solid;
 } 
 .logo:hover{
     transition: 1s;
@@ -73,11 +65,12 @@ nav{
     left: 50px;
     top: 135px;
     height: 2px;
-    width: 100%;
+    max-width: 100%;
+    
 }
 .linha-h1{
     background-color: white;
-    width: 85%;
+    width: 1700px;
     margin-right: 1%;
 }
 .linha-h2{
@@ -192,11 +185,10 @@ nav{
     display: flex;
     top: 28%;
     left: 10%;
-    border: 1px solid white;
 }
 .img-cont11{
     position: absolute;
-    background-color: #ffc800;
+    background-color: #02D5FF;
     filter: blur(200px);
     height: 600px;
     width: 100%;
@@ -204,7 +196,7 @@ nav{
     z-index: -2;
 }
 .img-cont12{
-    background-color: #ffc800c0;
+    background-color: #02d5ffb4;
     height: 550px;
     width: 100%;
     border-radius: 50%;
@@ -223,7 +215,8 @@ nav{
 .img-cont14{
     position: absolute;
     top: 200px;
-    color: #F0CB46;
+    color: #02D5FF;
+    text-shadow: 0 0 20px black;
     font-size: 1600%;
     z-index: 2;
 }

@@ -5,20 +5,15 @@
     text-decoration: none;
 }
 body{
-    background-image: url(img/1.jpg);
+    background-image: url(/img/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    overflow-x: hidden;
+    
 }
 .container-main{
-<<<<<<< HEAD
-    width: 100%;
-    height: 2000px;
-=======
     max-width: 100%;
-    height: 5000px;
->>>>>>> 42352311fedf1b0a91e1d3f811386212d4ff1944
+    height: 100%;
 }
 
 
@@ -27,25 +22,24 @@ body{
 header{
     display: flex;
     align-items: center;
-    position: fixed;
-    z-index: 10;
     width: 100%;
-    height: 100px;
-    padding: 80px;
+    height: 15vh;
+    padding: 3%;
     border: 1px solid white;
 }
 nav{
     width: 75%;
-    height: 57px;
+    height: 6vh;
     display: flex;
     justify-content: end;
     align-items: center;
     border: 1px solid red;
 }
 .logo{
-    width: 300px;
+    width: 15%;
+    height: 6vh;
     color: #F0CB46;
-    font-size: 300%;
+    font-size: 5vh;
     border: 1px solid;
 } 
 .logo:hover{
@@ -53,8 +47,8 @@ nav{
     scale: 1.05;
 }
 .paginas{
-    margin-right: 50px;
-    font-size: 200%;
+    margin-right: 4%;
+    font-size: 4vh;
     color: white;
 }
 .paginas:hover{
@@ -70,43 +64,42 @@ nav{
 .linha-horizontal{
     position: absolute;
     display: flex;
-    left: 50px;
-    top: 135px;
+    margin-left: 3%;
+    top: 15%;
     height: 2px;
-    width: 100%;
+    width: 97%;
 }
 .linha-h1{
     background-color: white;
-    width: 85%;
-    margin-right: 1%;
+    width: 92%;
 }
 .linha-h2{
     background-color: white;
-    width: 40px;
-    margin-right: 1%;
+    width: 2%;
+    margin-left: 1%;
 }
 
 
 .linha-vertical{
     position: absolute;
-    top: 170px;
+    top: 5%;
     left: 90%;
+    height: 100%;
     width: 2px;
 }
 .linha-v1{
-    margin-top: -130px;
     background-color: white;
-    height:700px;
+    height:90%;
 }
 .linha-v2{
-    margin-top: 30px;
+    margin-top: 2vh;
     background-color: white;
-    height: 40px;
+    height: 5%;
 }
 
 /* fim decoração cabeçalho */
 /* começo decoraçao fundo luzes */
-.decor-fundo1{
+/* .decor-fundo1{
     position: absolute;
     top: 200px;
     right: -300px;
@@ -182,87 +175,99 @@ nav{
     width: 600px;
     border-radius: 50%;
     z-index: -3;
-}
+} */
 /* fim decoraçao fundo luzes */
 /* começo conteudo 1 */
 
-.img-conteudo1{
-    position: absolute;
-    width: 600px;
-    display: flex;
-    top: 28%;
-    left: 10%;
+.conteudo-1{
+    width: 100%;
+    height: 70vh;
     border: 1px solid white;
+    display: flex;
 }
-.img-cont11{
+.conteudo-1-container-1{
+    border: 1px solid rgb(0, 4, 255);
+    height: 100%;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+.container-1-imagem-1{
     position: absolute;
     background-color: #ffc800;
-    filter: blur(200px);
-    height: 600px;
-    width: 100%;
+    filter: blur(20vh);
+    height: 70%;
+    width: 30%;
     border-radius: 50%;
     z-index: -2;
 }
-.img-cont12{
+.container-1-imagem-2{
+    position: absolute;
     background-color: #ffc800c0;
-    height: 550px;
-    width: 100%;
+    height: 60%;
+    width: 30%;
     border-radius: 50%;
-    filter: drop-shadow(-40px 40px 10px );
+    filter: drop-shadow(-4vh 4vh 2vh );
     z-index: -1;
-    position: absolute;
 }
-.img-cont13{
+.container-1-imagem-3{
     position: absolute;
-    left: 100px;
+    left: 14%;
+    width: 23vh;
     z-index: 1;
 }
-.imagem-1{
-    width: 140%;
-}
-.img-cont14{
+.container-1-imagem-4{
     position: absolute;
-    top: 200px;
+    top: 40%;
     color: #F0CB46;
-    font-size: 1600%;
+    font-size: 29vh;
+    filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 2;
 }
-.img-cont15{
+.container-1-imagem-5{
     position: absolute;
-    left: 130px;
-    top: -80px;
+    top: 12%;
+    left: 18%;
+    width: 23vh;
     z-index: 3;
-    
 }
-.botao-cor{
+.container-1-edit-imagem{
+    width: 150%;
+} 
+.container-1-botao{
     position: absolute;
-    right: -1000px;;
-    top: 200px;
-    width: 70px;
-    height: 100px;
+    right: 2%;
+    top: 40%;
+    width: 10vh;
+    height: 15vh;
     background-color: #ccc;
     clip-path: polygon(0 0, 0 100%, 50% 50%);
     z-index: 1;
 }
+.container-1-botao:hover{
+    transition: .5s;
+    background-color: #949494;
+}
+
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
-.texto-conteudo1{
+.conteudo-1-container-2{
+    border: 1px solid red;
+    width: 40%;
+}
+.container-1-texto{
     color: white;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    right: 12%;
-    padding-bottom: 10%;
+    padding: 10%;
 }
-.textos-cont11{
-    font-size: 30px;
-    margin-bottom: 50px;
-    text-shadow: -5px 5px 1px black;
+.container-1-texto-1{
+    font-size: 4vh;
+    margin-bottom: 1vh;
+    text-shadow: -5px 5px 5px black;
 }
-.textos-cont12{
-    font-size: 25px;
-    margin-bottom: 50px;
-    text-shadow: -5px 5px 1px black;
+.container-1-texto-2{
+    font-size: 3vh;
+    margin-bottom: 4vh;
+    text-shadow: -5px 5px 5px black;
 }
 
 /* fim texto conteudo 1 */
@@ -271,20 +276,25 @@ nav{
 
 
 /* começo conteudo 2 */
-.texto-conteudo2{
-    position: absolute;
-    top: 900px;
-    left: 200px;
-    right: 200px;
+.conteudo-2{
+    margin-top: 10vh;
+    border: 1px solid white;
     font-size: 200%;
     color: white;
 }
-.textos-cont21{
+.conteudo-2-texto-1{
+    border: 1px solid rgb(255, 0, 0);
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    font-size: 300%;
+    margin: 0vh 70vh;
+    margin-bottom: 10vh;
+    font-size: 10vh;
     text-shadow: -5px 5px 1px black;
+}
+.conteudo-2-texto-2{
+    border: 1px solid blue;
+    margin: 0vh 15vh;
+    font-size: 5vh;
 }
 /* fim conteudo 2 */
 
@@ -292,55 +302,63 @@ nav{
 
 /* começo conteudo 3 */
 /* começo texto conteudo 3 */
-.texto-conteudo31{
-    position: absolute;
-    top: 1650px;
-    left: 100px;
+.conteudo-3{
+    margin-top: 10vh;
+    border: 1px solid white;
     color: white;
-    width: 700px;
+    width: 100%;
+    height: 80vh;
     font-size: 150%;
+    display: flex;
 }
-.texto-cont32{
+.conteudo-3-texto{
+    border: 1px solid red;
+    width: 45%;
+    padding: 3%;
+}
+.conteudo-3-texto-1{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-    font-size: 200%;
+    font-size: 7vh;
+    margin-bottom: 5vh;
     text-shadow: -5px 5px 1px black;
 }
-.texto-cont33{
-    font-size: 120%;
-    margin-bottom: 40px
+.conteudo-3-texto-2{
+    
+    font-size: 4vh;
+    margin-bottom: 2vh;
 }
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
-.img-conteudo3{
-    position: absolute;
-    top: 1650px;
-    left: 850px;
+.conteudo-3-imagem{
+    border: 1px solid blue;
+    width: 55%;
+    margin: 5% 0%;
 }
-.img-cont31{
+.conteudo-3-imagem-1{
     position: absolute;
-    left: 200px;
+    left: 56%;
     background-color: white;
-    width:600px ;
-    height: 600px;
+    width:60vh;
+    height: 60vh;
     border-radius: 50%;
 }
-.img-cont32{
+.conteudo-3-imagem-2{
     position: absolute;
-    left: 50px;
+    left: 48%;
     background-color: rgb(87, 87, 87);
-    width: 300px;
-    height: 300px;
+    width: 30vh;
+    height: 30vh;
     border-radius: 50%;
 }
-.img-cont33{
+.conteudo-3-imagem-3{
     position: absolute;
-    left: 600px;
-    top: 300px;
+    top: 240vh;
+    left: 78%;
     background-color: rgb(173, 173, 173);
-    width: 400px;
-    height: 400px;
+    width: 40vh;
+    height: 40vh;
     border-radius: 50%;
 }
 /* fim imagens conteudo 3 */
@@ -351,33 +369,28 @@ nav{
 /* começo conteudo 4 */
 /* começo formas conteudo 4 */
 .texto-conteudo4{
-    position: absolute;
-    top: 2450px;
-    left: 300px;
+    
 }
-.img-conteudo4{
-    display: flex;
+.conteudo-4{
+    border: 1px solid white;
+    
 }
-.img-cont41{
-    position: absolute;
+.conteudo-4-formas-1{
+    
     background-color: rgba(81, 56, 223, 0.253);
     filter: drop-shadow(-30px 30px 30px);
     width: 700px;
     height: 900px;
 }
- .img-cont42{
-    position: absolute;
-    top:230px;
-    left: 550px;
+ .conteudo-4-formas-2{
+    
     background-color: rgb(56, 77, 148);
     filter: drop-shadow(30px 30px);
     width: 700px;
     height: 500px;
 }
-.img-cont43{
-    position: absolute;
-    top: 230px;
-    left: 80px;
+.conteudo-4-formas-3{
+    
     background-color: rgba(88, 53, 128, 0.349);
     filter: drop-shadow(-5px 5px 10px);
     height: 250px;
@@ -385,13 +398,13 @@ nav{
 }
 /* fim formas conteudo 4 */
 /* começo textos conteudo 4 */
-.texto-cont41{
+.conteudo-4-texto-1{
     font-size: 500%;
     position: absolute;
     left: 800px;
     color: white;
 }
-.texto-cont42{
+.conteudo-4-texto-2{
     font-size: 150%;
     color: white;
     position: absolute;
@@ -399,7 +412,7 @@ nav{
     left: 10%;
     right: 25%;
 }
-.texto-cont43{ 
+.conteudo-4-texto-3{ 
     font-size: 180%;
     color: white;
     position: absolute;  
@@ -407,7 +420,7 @@ nav{
     top: 20%;
     right: 10%;
 }
-.texto-cont44{
+.conteudo-4-texto-4{
     color: white;
     font-size: 120%;
     position: absolute;
@@ -422,14 +435,14 @@ nav{
 
 
 /* começo conteudo 5 */
-.conteudo5{
+/* .conteudo5{
     position: absolute;
     width: 100%;
     top: 3500px;
-}
+} */
 /* começo conteudo 5-1 */
 /* começo linhas elementos1 */
-.cont5-linha11{
+/* .cont5-linha11{
     position: absolute;
     left: 63%;
     top: 60px;
@@ -447,10 +460,10 @@ nav{
     width: 700px;
     height: 3px;
     background-color: white;
-}
+} */
 /* fim linhas elementos1 */
 /* começo imagens elementos2 */
-.cont5-imagens1{
+/* .cont5-imagens1{
     display: flex;
     position: absolute;
     left: 100px;
@@ -463,10 +476,10 @@ nav{
     margin-right: 50px;
     border-radius: 30px;
     border: 8px solid #ccc;
-}
+} */
 /* fim imagem elementos2 */
 /* começo decoração das imagens elemento2 */
-.cont5-dec-imag11{
+/* .cont5-dec-imag11{
     position: absolute;
     left: 167px;
     top: 90px;
@@ -484,20 +497,20 @@ nav{
     height: 100px;
     clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
 
-}
+} */
 /* fim decoração das imagens elemento2 */
 /* começo elementos3 */
-.cont5-elementos3{
+/* .cont5-elementos3{
     color: white;
     font-size: 400%;
     position: absolute;
     left: 750px;
     top: 70px;
-}
+} */
 /* fim elementos3 */
 /* começo elemento 4 */
 /* começo elemento 4 quadrado */
-.cont5-quadrado{
+/* .cont5-quadrado{
     background-color: #5A5B77;
     border-radius: 50px;
     width: 1300px;
@@ -506,29 +519,29 @@ nav{
     left: 150px;
     top: 150px;
     z-index: -1;
-}
+} */
 /* fime elemento 4 quadrado */
 /* começo elemento 4 texto */
-.cont5-texto-quadrado{
+/* .cont5-texto-quadrado{
     color: white;
     font-size: 170%;
     position: absolute;
     left: 750px;
     top: 200px;
     right: 450px;
-}
+} */
 /* fim elemento 4 texto */
 /* fim elemento 4 */
 /* fim  conteudo 5-1 */
 
 /* começo do conteudo 5-2 */
-.conteudo5-2{
+/* .conteudo5-2{
     position: absolute;
     width: 100%;
     top: 500px;
-}
+} */
 /* começo linhas elementos 2-1 */
-.cont5-linha21{
+/* .cont5-linha21{
     position: absolute;
     right: 65%;
     top: 60px;
@@ -546,10 +559,10 @@ nav{
     width: 700px;
     height: 3px;
     background-color: white;
-}
+} */
 /* fim linhas elementos 2-1 */
 /* começo imagens elementos 2-2 */
-.cont5-imagens21{
+/* .cont5-imagens21{
     display: flex;
     position: absolute;
     right: 5%;
@@ -562,10 +575,10 @@ nav{
     margin-right: 50px;
     border-radius: 30px;
     border: 8px solid #ccc;
-}
+} */
 /* fim imagem elementos 2-2 */
 /* começo decoração das imagens elemento 2-2 */
-.cont5-dec-imag21{
+/* .cont5-dec-imag21{
     position: absolute;
     left: 167px;
     top: 90px;
@@ -583,20 +596,20 @@ nav{
     height: 100px;
     clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
 
-}
+} */
 /* fim decoração das imagens elemento 2-2 */
 /* começo elementos 2-3 */
-.cont5-elementos23{
+/* .cont5-elementos23{
     color: white;
     font-size: 400%;
     position: absolute;
     left: 450px;
     top: 70px;
-}
+} */
 /* fim elementos 2-3 */
 /* começo elemento 2-4 */
 /* começo elemento 2-4 quadrado */
-.cont5-quadrado2{
+/* .cont5-quadrado2{
     background-color: #5A5B77;
     border-radius: 50px;
     width: 1300px;
@@ -605,30 +618,30 @@ nav{
     right: 10%;
     top: 150px;
     z-index: -1;
-}
+} */
 /* fime elemento 2-4 quadrado */
 /* começo elemento 2-4 texto */
-.cont5-texto-quadrado2{
+/* .cont5-texto-quadrado2{
     color: white;
     font-size: 170%;
     position: absolute;
     left: 450px;
     top: 200px;
     right: 750px;
-}
+} */
 /* fim elemento 2-4 texto */
 /* fim elemento 2-4 */
 /* fim do conteudo 5-2 */
 
 /* começo do conteudo 5-3 */
-.conteudo5-3{
+/* .conteudo5-3{
     position: absolute;
     width: 100%;
     top: 1000px;
-}
+} */
 /* começo conteudo 5-3 */
 /* começo linhas elementos 5-1 */
-.cont5-linha31{
+/* .cont5-linha31{
     position: absolute;
     left: 63%;
     top: 60px;
@@ -638,18 +651,18 @@ nav{
     border: 3px solid rgb(255, 255, 255);
     border-bottom: none;
     border-left: none;
-}
-.cont5-linha32{
+} */
+/* .cont5-linha32{
     position: absolute;
     top: 50px;
     left: 40%;
     width: 700px;
     height: 3px;
     background-color: white;
-}
+} */
 /* fim linhas elementos5-1 */
 /* começo imagens elementos 5-2 */
-.cont5-imagens31{
+/* .cont5-imagens31{
     display: flex;
     position: absolute;
     left: 100px;
@@ -662,10 +675,10 @@ nav{
     margin-right: 50px;
     border-radius: 30px;
     border: 8px solid #ccc;
-}
+} */
 /* fim imagem elementos 5-2 */
 /* começo decoração das imagens elemento 5-2 */
-.cont5-dec-imag31{
+/* .cont5-dec-imag31{
     position: absolute;
     left: 167px;
     top: 90px;
@@ -683,20 +696,20 @@ nav{
     height: 100px;
     clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
 
-}
+} */
 /* fim decoração das imagens elemento 5-2 */
 /* começo elementos 5-3 */
-.cont5-elementos33{
+/* .cont5-elementos33{
     color: white;
     font-size: 400%;
     position: absolute;
     left: 750px;
     top: 70px;
-}
+} */
 /* fim elementos 5-3 */
 /* começo elemento 5- 4 */
 /* começo elemento 5- 4 quadrado */
-.cont5-quadrado32{
+/* .cont5-quadrado32{
     background-color: #5A5B77;
     border-radius: 50px;
     width: 1300px;
@@ -705,17 +718,17 @@ nav{
     left: 150px;
     top: 150px;
     z-index: -1;
-}
+} */
 /* fim elemento 5-4 quadrado */
 /* começo elemento 5-4 texto */
-.cont5-texto-quadrado32{
+/* .cont5-texto-quadrado32{
     color: white;
     font-size: 170%;
     position: absolute;
     left: 750px;
     top: 200px;
     right: 450px;
-}
+} */
 /* fim elemento 5-4 texto */
 /* fim do conteudo 5-3 */
 /* fim conteudo 5 */
