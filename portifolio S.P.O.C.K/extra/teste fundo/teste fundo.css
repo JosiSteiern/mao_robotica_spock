@@ -9,7 +9,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
+    overflow-x: hidden;
 }
 .container-main{
     max-width: 100%;
@@ -215,9 +215,9 @@ nav{
 }
 .container-1-imagem-4{
     position: absolute;
-    top: 55vh;
+    top: 50vh;
     color: #F0CB46;
-    font-size: 20vh;
+    font-size: 29vh;
     filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 2;
 }
@@ -231,6 +231,21 @@ nav{
 .container-1-edit-imagem{
     width: 150%;
 } 
+.container-1-botao{
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    width: 10vh;
+    height: 15vh;
+    background-color: #ccc;
+    clip-path: polygon(0 0, 0 100%, 50% 50%);
+    z-index: 1;
+}
+.container-1-botao:hover{
+    transition: .5s;
+    background-color: #949494;
+}
+
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
 .conteudo-1-container-2{
@@ -259,44 +274,19 @@ nav{
 /* começo conteudo 2 */
 .conteudo-2{
     margin-top: 10vh;
-    width: 100%;
-    height: 70vh;
-}
-.conteudo-2-linha-1{
-    height: 45%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-.linha-2-1{
-    width: 25%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-}
-.conteudo-2-linha-2{
-    margin-top: 3.4%;
-    height: 45%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-
-}
-.linha-2-2{
-    width: 25%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    
-}
-.linha-2-3{
-    width: 25%;
-    height: 100%;
-}
-.texto-2-3{
+    font-size: 200%;
     color: white;
-    font-size: 3vh;
-    text-shadow: -0.8vh 0.8vh 0.3vh black;
+}
+.conteudo-2-texto-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    font-size: 10vh;
+    text-shadow: -0.8vh 0.8vh black;
+}
+.conteudo-2-texto-2{
+    margin: 0vh 23vh;
+    font-size: 4vh;
 }
 /* fim conteudo 2 */
 
@@ -334,34 +324,32 @@ nav{
 /* começo imagens conteudo 3 */
 .conteudo-3-imagem{
     width: 55%;
+    margin: 5% 0%;
 }
 .conteudo-3-imagem-1{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 40vh;
-    height: 60vh;
     position: absolute;
-    left: 60%;
-    top: 195vh;
-    z-index: -3;
+    left: 56%;
+    background-color: white;
+    width:60vh;
+    height: 60vh;
+    border-radius: 50%;
 }
 .conteudo-3-imagem-2{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width:45vh;
-    height: 35vh;
     position: absolute;
     left: 48%;
-    top: 230vh;
+    background-color: rgb(87, 87, 87);
+    width: 30vh;
+    height: 30vh;
+    border-radius: 50%;
 }
 .conteudo-3-imagem-3{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 30vh;
-    height: 40vh;
     position: absolute;
-    left: 77%;
-    top: 205vh;
+    top: 240vh;
+    left: 78%;
+    background-color: rgb(173, 173, 173);
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
 }
 /* fim imagens conteudo 3 */
 /* fim conteudo 3 */
@@ -371,7 +359,7 @@ nav{
 /* começo conteudo 4 */
 /* começo formas conteudo 4 */
 .conteudo-4{
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 .conteudo-4-elemento-1{
     width: 40%;
@@ -449,208 +437,316 @@ nav{
 
 /* começo conteudo 5 */
 .conteudo-5{
-    margin-top: 10%;
+    margin-top: 10vh;
     width: 100%;
-    height: 100vh;
-    display: flex;
+    height: 161vh;
 }
+/* começo conteudo 5-1 */
+.conteudo-5-1{
+    position: absolute;
+    width: 100%;
+    height: 60vh;
+}
+/* começo elementos 1 */
 .conteudo-5-elemento-1{
     width: 40%;
-    height: 100%;
+    height: 20%;
+    position: absolute;
+    left: 85vh;
+    top: 7vh;
 }
-.conteudo-5-texto-1{
+.conteudo-5-linhas{
     width: 100%;
-    height: 15%;
-    font-size: 7vh;
-    color: white;
-    padding-left: 10vh;
-    display: flex;
-    align-items: center;
+    height: 100%; 
 }
-.conteudo-5-texto-2{
-    width: 100%;
-    height: 10%;
-    font-size: 6vh;
-    color: white;
-    padding-left: 20vh;
-    display: flex;
-    align-items: center;
+.conteudo5-linha-1-1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 85%;
+    height: 2%;
+    background-color: white;
 }
-.conteudo-5-texto-3{
-    width: 100%;
-    height: 75%;
-    font-size: 3.5vh;
-    color: white;
-    padding: 10vh;
+.conteudo5-linha-1-2{
+    margin-left:30%;
+    width: 70%;
+    height: 20vh;
+    border-radius: 0vh 10vh 0vh 0vh;
+    border: 0.5vh solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-left: none; 
+}
+/* fim elementos 1 */
 
-}
-
+/* começo elementos 2 */
 .conteudo-5-elemento-2{
-    width: 60%;
-    height: 100%;
+    width: 30%;
+    height: 16%;
+    position: absolute;
+    left: 10vh;
+    top: 10vh;
 }
-.conteudo-5-linha-1{
-    width: 100%;
-    height: 48%;
+.conteudo-5-imagems{
     display: flex;
 }
 .conteudo-5-imagem-1{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 100%;
-    margin-left: 10%;
-}
-.conteudo-5-imagem-2{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 100%;
-    margin-left: 10%;
-}
-
-.conteudo-5-linha-2{
-    margin-top: 4%;
-    width: 100%;
-    height: 48%;
-    display: flex;
-}
-.conteudo-5-imagem-3{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 100%;
-    margin-left: 10%;
-}
-.conteudo-5-imagem-4{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 100%;
-    margin-left: 10%;
-}
-/* fim conteudo 5 */
-
-
-
-/* começo conteudo 6 */
-.conteudo-6{
-    margin-top: 10%;
-    width: 100%;
-    height: 90vh;
-    display: flex;
-}
-.conteudo-6-elemento-1{
-    width: 50%;
-    height: 100%;
-}
-.conteudo-6-video{
-    position: absolute;
-    left: 25vh;
-    top: 527vh;
-    width: 50vh;
-    height: 75vh;
-    background-color: #cccccc2a;
-    border-radius: 10vh;
-}
-.conteudo-6-video-1{
-    background-color: rgba(255, 255, 255, 0.274);
-    border: 1vh solid #cccccc;
+    background-color: white;
+    width: 18vh;
+    height: 24vh;
     border-radius: 3vh;
-    width: 35vh;
-    height: 18vh;
-    margin-left: 7.8vh;
-    margin-top: 5vh;
+    border: 1vh solid #ccc;
 }
-
-.conteudo-6-elemento-2{
-    width: 50%;
-    height: 100%;
+.conteudo-5-decoração-imagem-1{
+    background-color: #ccc;
+    width: 5vh;
+    height: 14vh;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+    margin-top: 7vh;
 }
-.conteudo-6-texto-1{
-    height: 10%;
+/* fim elemento2 */
+/* começo elementos3 */
+.conteudo-5-elemento-3{
+    width: 15%;
+    height: 5%;
     color: white;
-    font-size: 5vh;
-    padding-left: 10vh;
+    font-size: 8vh;
+    position: absolute;
+    left: 73vh;
+    top: 10vh;
 }
-.conteudo-6-texto-2{
-    height: 30%;
+/* fim elementos3 */
+/* começo elemento 4 */
+.conteudo-5-elemento-4{
+    width: 70%;
+    height: 18.2%;
+    display: flex;
+    position: absolute;
+    left: 15vh;
+    top: 20vh;
+    z-index: -1;
+}
+.conteudo-5-quadrado-1{
+    background-color: #5A5B77;
+    border-radius: 6vh;
+    width: 140vh;
+    height: 25vh;
+}
+.conteudo-5-texto-quadrado-1{
     color: white;
-    font-size: 3vh;
-    padding-left: 10vh;
-    padding-top: 5vh;
-    padding-right: 10vh;
+    font-size: 3.5vh;
+    position: absolute;
+    left: 58vh;
+    top: 5vh;
 }
-/* fim conteudo 6 */
+/* fim elemento 4 */
+/* fim  conteudo 5-1 */
 
 
 
-/* começo conteudo 7 */
-.conteudo-7{
-    margin-top: 10%;
+/* começo do conteudo 5-2 */
+.conteudo-5-2{
+    position: absolute;
+    top: 460vh;
     width: 100%;
-    height: 90vh;
+    height: 60vh;
 }
-.conteudo-7-texto-1{
+/* começo elementos 1 */
+.conteudo-5-elemento-2-1{
+    width: 40%;
     height: 20%;
-    font-size: 10vh;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    left: 15vh;
+    top: 7vh;
 }
-.conteudo-7-texto-2{
-    height: 40%;
-    color: white;
-    font-size: 3vh;
-    display: flex;
-    align-items: center;
-    padding: 0% 5%;
-}
-.conteudo-7-texto-3{
-    height: 10%;
-    color: white;
-    font-size: 3vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/* fim conteudo 7 */
-
-
-
-/* começo rodapé */
-.linha-horizontal-rodape{
-    margin-top: 10%;
+.conteudo-5-linhas-2{
     width: 100%;
-    height: 1vh;
-    display: flex;
+    height: 100%; 
 }
-.linha-rodape-1{
-    background-color: white;
-    width: 83%;
-    height: 0.3vh;
-    margin-left: 5%;
-
-}
-.linha-rodape-2{
-    background-color: white;
-    width: 2%;
-    height: 0.3vh;
-    margin-left: 1%;
-}
-
-.rodape-paginas{
-    margin-top: 3%;
+.conteudo5-linha-2-1{
+    margin-left:40%;
+    margin-top: 1%;
     margin-bottom: 1%;
-    width: 100%;
-    height: 10vh;
+    width: 85%;
+    height: 2%;
+    background-color: white;
+}
+.conteudo5-linha-2-2{
+    margin-left:25%;
+    width: 80%;
+    height: 20vh;
+    border-radius: 10vh 0vh 0vh 0vh;
+    border: 0.5vh solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-right: none; 
+}
+/* fim elementos 1 */
+
+/* começo elementos 2 */
+.conteudo-5-elemento-2-2{
+    width: 30%;
+    height: 16%;
+    position: absolute;
+    left: 65%;
+    top: 10vh;
+}
+.conteudo-5-imagems-2{
     display: flex;
-    align-items: center;
-    margin-left: 30%;
 }
-.rodape-paginas-1{
+.conteudo-5-imagem-2-1{
+    background-color: white;
+    width: 18vh;
+    height: 24vh;
+    border-radius: 3vh;
+    border: 1vh solid #ccc;
+}
+.conteudo-5-decoração-imagem-2-1{
+    background-color: #ccc;
+    width: 5vh;
+    height: 14vh;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+    margin-top: 7vh;
+}
+/* fim elemento2 */
+
+/* começo elementos3 */
+.conteudo-5-elemento-2-3{
+    width: 15%;
+    height: 5%;
     color: white;
-    margin-right: 8%;
+    font-size: 8vh;
+    position: absolute;
+    left: 50vh;
+    top: 10vh;
 }
-/* fim rodapé */
+/* fim elementos3 */
+
+/* começo elemento 4 */
+.conteudo-5-elemento-2-4{
+    width: 70%;
+    height: 18.2%;
+    display: flex;
+    position: absolute;
+    left: 23%;
+    top: 20vh;
+    z-index: -1;
+}
+.conteudo-5-quadrado-2-1{
+    background-color: #5A5B77;
+    border-radius: 6vh;
+    width: 140vh;
+    height: 25vh;
+}
+.conteudo-5-texto-quadrado-2-1{
+    color: white;
+    font-size: 3.5vh;
+    position: absolute;
+    left: 3vh;
+    right: 59vh;
+    top: 5vh;
+}
+/* fim elemento 4 */
+/* fim do conteudo 5-2 */
+
+
+
+/* começo do conteudo 5-3 */
+/* começo conteudo 5-1 */
+.conteudo-5-3{
+    position: absolute;
+    top: 507vh;
+    width: 100%;
+    height: 60vh;
+}
+/* começo elementos 1 */
+.conteudo-5-elemento-3-1{
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    left: 85vh;
+    top: 7vh;
+}
+.conteudo-5-linhas-3{
+    width: 100%;
+    height: 100%; 
+}
+.conteudo5-linha-3-1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 85%;
+    height: 2%;
+    background-color: white;
+}
+.conteudo5-linha-3-2{
+    margin-left:30%;
+    width: 70%;
+    height: 20vh;
+    border-radius: 0vh 10vh 0vh 0vh;
+    border: 0.5vh solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-left: none; 
+}
+/* fim elementos 1 */
+
+/* começo elementos 2 */
+.conteudo-5-elemento-3-2{
+    width: 30%;
+    height: 16%;
+    position: absolute;
+    left: 10vh;
+    top: 10vh;
+}
+.conteudo-5-imagems-3{
+    display: flex;
+}
+.conteudo-5-imagem-3-1{
+    background-color: white;
+    width: 18vh;
+    height: 24vh;
+    border-radius: 3vh;
+    border: 1vh solid #ccc;
+}
+.conteudo-5-decoração-imagem-3-1{
+    background-color: #ccc;
+    width: 5vh;
+    height: 14vh;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+    margin-top: 7vh;
+}
+/* fim elemento2 */
+/* começo elementos3 */
+.conteudo-5-elemento-3-3{
+    width: 15%;
+    height: 5%;
+    color: white;
+    font-size: 8vh;
+    position: absolute;
+    left: 73vh;
+    top: 10vh;
+}
+/* fim elementos3 */
+/* começo elemento 4 */
+.conteudo-5-elemento-3-4{
+    width: 70%;
+    height: 18.2%;
+    display: flex;
+    position: absolute;
+    left: 15vh;
+    top: 20vh;
+    z-index: -1;
+}
+.conteudo-5-quadrado-3-1{
+    background-color: #5A5B77;
+    border-radius: 6vh;
+    width: 140vh;
+    height: 25vh;
+}
+.conteudo-5-texto-quadrado-3-1{
+    color: white;
+    font-size: 3.5vh;
+    position: absolute;
+    left: 58vh;
+    top: 5vh;
+}
+/* fim elemento 4 */
+/* fim  conteudo 5-1 */
+/* fim do conteudo 5-3 */
+/* fim conteudo 5 */

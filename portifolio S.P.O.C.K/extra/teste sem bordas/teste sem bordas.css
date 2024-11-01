@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(/img/1.jpg);
+    background-image: url(/extra/img/1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,7 +25,6 @@ header{
     width: 100%;
     height: 15vh;
     padding: 3%;
-    border: 1px solid white;
 }
 nav{
     width: 75%;
@@ -33,14 +32,12 @@ nav{
     display: flex;
     justify-content: end;
     align-items: center;
-    border: 1px solid red;
 }
 .logo{
     width: 15%;
     height: 6vh;
     color: #F0CB46;
     font-size: 5vh;
-    border: 1px solid;
 } 
 .logo:hover{
     transition: 1s;
@@ -66,7 +63,7 @@ nav{
     display: flex;
     margin-left: 3%;
     top: 15%;
-    height: 2px;
+    height: 0.3vh;
     width: 97%;
 }
 .linha-h1{
@@ -85,7 +82,7 @@ nav{
     top: 5%;
     left: 90%;
     height: 100%;
-    width: 2px;
+    width: 0.3vh;
 }
 .linha-v1{
     background-color: white;
@@ -180,13 +177,12 @@ nav{
 /* começo conteudo 1 */
 
 .conteudo-1{
+    margin-top: 10vh;
     width: 100%;
     height: 70vh;
-    border: 1px solid white;
     display: flex;
 }
 .conteudo-1-container-1{
-    border: 1px solid rgb(0, 4, 255);
     height: 100%;
     width: 30%;
     margin-left: 10%;
@@ -213,12 +209,13 @@ nav{
 .container-1-imagem-3{
     position: absolute;
     left: 14%;
+    top: 28vh;
     width: 23vh;
     z-index: 1;
 }
 .container-1-imagem-4{
     position: absolute;
-    top: 40%;
+    top: 50vh;
     color: #F0CB46;
     font-size: 29vh;
     filter: drop-shadow( -1vh 1vh 1vh black);
@@ -226,7 +223,7 @@ nav{
 }
 .container-1-imagem-5{
     position: absolute;
-    top: 12%;
+    top: 20vh;
     left: 18%;
     width: 23vh;
     z-index: 3;
@@ -252,22 +249,21 @@ nav{
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
 .conteudo-1-container-2{
-    border: 1px solid red;
     width: 40%;
 }
-.container-1-texto{
+.container-2-texto{
     color: white;
     padding: 10%;
 }
-.container-1-texto-1{
+.container-2-texto-1{
     font-size: 4vh;
     margin-bottom: 1vh;
-    text-shadow: -5px 5px 5px black;
+    text-shadow: -1vh 1vh 0.5vh black;
 }
-.container-1-texto-2{
+.container-2-texto-2{
     font-size: 3vh;
     margin-bottom: 4vh;
-    text-shadow: -5px 5px 5px black;
+    text-shadow: -0.5vh 0.5vh 0.5vh black;
 }
 
 /* fim texto conteudo 1 */
@@ -278,23 +274,19 @@ nav{
 /* começo conteudo 2 */
 .conteudo-2{
     margin-top: 10vh;
-    border: 1px solid white;
     font-size: 200%;
     color: white;
 }
 .conteudo-2-texto-1{
-    border: 1px solid rgb(255, 0, 0);
     display: flex;
     justify-content: center;
-    margin: 0vh 70vh;
     margin-bottom: 10vh;
     font-size: 10vh;
-    text-shadow: -5px 5px 1px black;
+    text-shadow: -0.8vh 0.8vh black;
 }
 .conteudo-2-texto-2{
-    border: 1px solid blue;
-    margin: 0vh 15vh;
-    font-size: 5vh;
+    margin: 0vh 23vh;
+    font-size: 4vh;
 }
 /* fim conteudo 2 */
 
@@ -304,7 +296,6 @@ nav{
 /* começo texto conteudo 3 */
 .conteudo-3{
     margin-top: 10vh;
-    border: 1px solid white;
     color: white;
     width: 100%;
     height: 80vh;
@@ -312,9 +303,9 @@ nav{
     display: flex;
 }
 .conteudo-3-texto{
-    border: 1px solid red;
     width: 45%;
     padding: 3%;
+    padding-top: 0;
 }
 .conteudo-3-texto-1{
     display: flex;
@@ -322,17 +313,16 @@ nav{
     margin-bottom: 50px;
     font-size: 7vh;
     margin-bottom: 5vh;
-    text-shadow: -5px 5px 1px black;
+    text-shadow: -0.8vh 0.8vh 0.3vh black;
 }
 .conteudo-3-texto-2{
     
     font-size: 4vh;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
 .conteudo-3-imagem{
-    border: 1px solid blue;
     width: 55%;
     margin: 5% 0%;
 }
@@ -368,65 +358,76 @@ nav{
 
 /* começo conteudo 4 */
 /* começo formas conteudo 4 */
-.texto-conteudo4{
-    
-}
 .conteudo-4{
-    border: 1px solid white;
-    
+    margin-top: 10vh;
 }
-.conteudo-4-formas-1{
-    
-    background-color: rgba(81, 56, 223, 0.253);
-    filter: drop-shadow(-30px 30px 30px);
-    width: 700px;
-    height: 900px;
+.conteudo-4-elemento-1{
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
 }
- .conteudo-4-formas-2{
-    
+.conteudo-4-forma-1{
+    background-color: rgb(43, 37, 80);
+    filter: drop-shadow(-3vh 3vh 0.5vh rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 100vh;
+}
+.conteudo-4-elemento-2{
+    position: absolute;
+    margin-top: -40%;
+    left: 45%;
+    width: 45%;
+}
+ .conteudo-4-forma-2{
     background-color: rgb(56, 77, 148);
-    filter: drop-shadow(30px 30px);
-    width: 700px;
-    height: 500px;
+    filter: drop-shadow(3vh 3vh );
+    width: 100%;
+    height: 50vh;
+}
+.conteudo-4-elemento-3{
+    position: absolute;
+    margin-top: -45%;
+    left: 15%;
+    width: 20vh;
+    height: 27vh;
 }
 .conteudo-4-formas-3{
-    
-    background-color: rgba(88, 53, 128, 0.349);
-    filter: drop-shadow(-5px 5px 10px);
-    height: 250px;
-    width: 180px;
+    background-color: rgb(60, 13, 114);
+    filter: drop-shadow(-2vh 2vh 1vh rgba(0, 0, 0, 0.5));
+    height: 100%;
+    width: 100%;
 }
 /* fim formas conteudo 4 */
 /* começo textos conteudo 4 */
+.conteudo-4-titulo{
+    font-size: 7vh;
+    filter: drop-shadow(-1.3vh 1.3vh 0.2vh black);
+    position: absolute;
+    margin-top: 2%;
+    left: 55%;
+    width: 40%;
+    color: white;
+}
 .conteudo-4-texto-1{
-    font-size: 500%;
-    position: absolute;
-    left: 800px;
+    font-size: 2.6vh;
     color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 10%;
+    display: flex;
+    align-items: end;
 }
-.conteudo-4-texto-2{
-    font-size: 150%;
+.conteudo-4-texto-2{ 
+    font-size: 3.5vh;
     color: white;
-    position: absolute;
-    top: 65%;
-    left: 10%;
-    right: 25%;
+    width: 100%;
+    height: 50vh;
+    padding: 10%;
 }
-.conteudo-4-texto-3{ 
-    font-size: 180%;
+.conteudo-4-texto-3{
     color: white;
-    position: absolute;  
-    left: 10%;
-    top: 20%;
-    right: 10%;
-}
-.conteudo-4-texto-4{
-    color: white;
-    font-size: 120%;
-    position: absolute;
-    left: 10%;
-    top: 10%;
-    right: 5%;
+    font-size: 2vh;
+    padding: 10%;
 
 }
 /* fim texto conteudo 4 */
@@ -435,300 +436,317 @@ nav{
 
 
 /* começo conteudo 5 */
-/* .conteudo5{
+.conteudo-5{
+    margin-top: 10vh;
+    width: 100%;
+    height: 161vh;
+}
+/* começo conteudo 5-1 */
+.conteudo-5-1{
     position: absolute;
     width: 100%;
-    top: 3500px;
-} */
-/* começo conteudo 5-1 */
-/* começo linhas elementos1 */
-/* .cont5-linha11{
+    height: 60vh;
+}
+/* começo elementos 1 */
+.conteudo-5-elemento-1{
+    width: 40%;
+    height: 20%;
     position: absolute;
-    left: 63%;
-    top: 60px;
-    width: 400px;
-    height: 150px;
-    border-radius: 0px 100px 0px 0px;
-    border: 3px solid rgb(255, 255, 255);
+    left: 85vh;
+    top: 7vh;
+}
+.conteudo-5-linhas{
+    width: 100%;
+    height: 100%; 
+}
+.conteudo5-linha-1-1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 85%;
+    height: 2%;
+    background-color: white;
+}
+.conteudo5-linha-1-2{
+    margin-left:30%;
+    width: 70%;
+    height: 20vh;
+    border-radius: 0vh 10vh 0vh 0vh;
+    border: 0.5vh solid rgb(255, 255, 255);
     border-bottom: none;
-    border-left: none;
+    border-left: none; 
 }
-.cont5-linha12{
-    position: absolute;
-    top: 50px;
-    left: 40%;
-    width: 700px;
-    height: 3px;
-    background-color: white;
-} */
-/* fim linhas elementos1 */
-/* começo imagens elementos2 */
-/* .cont5-imagens1{
-    display: flex;
-    position: absolute;
-    left: 100px;
-    top: 40px;
-}
-.cont5-imag11{
-    background-color: white;
-    width: 167px;
-    height: 216px;
-    margin-right: 50px;
-    border-radius: 30px;
-    border: 8px solid #ccc;
-} */
-/* fim imagem elementos2 */
-/* começo decoração das imagens elemento2 */
-/* .cont5-dec-imag11{
-    position: absolute;
-    left: 167px;
-    top: 90px;
-    background-color: #ccc;
-    width: 50px;
-    height: 100px;
-    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-}
-.cont5-dec-imag12{
-    position: absolute;
-    left: 384px;
-    top: 30px;
-    background-color: #ccc;
-    width: 50px;
-    height: 100px;
-    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+/* fim elementos 1 */
 
-} */
-/* fim decoração das imagens elemento2 */
-/* começo elementos3 */
-/* .cont5-elementos3{
-    color: white;
-    font-size: 400%;
+/* começo elementos 2 */
+.conteudo-5-elemento-2{
+    width: 30%;
+    height: 16%;
     position: absolute;
-    left: 750px;
-    top: 70px;
-} */
+    left: 10vh;
+    top: 10vh;
+}
+.conteudo-5-imagems{
+    display: flex;
+}
+.conteudo-5-imagem-1{
+    background-color: white;
+    width: 18vh;
+    height: 24vh;
+    border-radius: 3vh;
+    border: 1vh solid #ccc;
+}
+.conteudo-5-decoração-imagem-1{
+    background-color: #ccc;
+    width: 5vh;
+    height: 14vh;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+    margin-top: 7vh;
+}
+/* fim elemento2 */
+/* começo elementos3 */
+.conteudo-5-elemento-3{
+    width: 15%;
+    height: 5%;
+    color: white;
+    font-size: 8vh;
+    position: absolute;
+    left: 73vh;
+    top: 10vh;
+}
 /* fim elementos3 */
 /* começo elemento 4 */
-/* começo elemento 4 quadrado */
-/* .cont5-quadrado{
-    background-color: #5A5B77;
-    border-radius: 50px;
-    width: 1300px;
-    height: 250px;
+.conteudo-5-elemento-4{
+    width: 70%;
+    height: 18.2%;
+    display: flex;
     position: absolute;
-    left: 150px;
-    top: 150px;
+    left: 15vh;
+    top: 20vh;
     z-index: -1;
-} */
-/* fime elemento 4 quadrado */
-/* começo elemento 4 texto */
-/* .cont5-texto-quadrado{
+}
+.conteudo-5-quadrado-1{
+    background-color: #5A5B77;
+    border-radius: 6vh;
+    width: 140vh;
+    height: 25vh;
+}
+.conteudo-5-texto-quadrado-1{
     color: white;
-    font-size: 170%;
+    font-size: 3.5vh;
     position: absolute;
-    left: 750px;
-    top: 200px;
-    right: 450px;
-} */
-/* fim elemento 4 texto */
+    left: 58vh;
+    top: 5vh;
+}
 /* fim elemento 4 */
 /* fim  conteudo 5-1 */
 
+
+
 /* começo do conteudo 5-2 */
-/* .conteudo5-2{
+.conteudo-5-2{
     position: absolute;
+    top: 460vh;
     width: 100%;
-    top: 500px;
-} */
-/* começo linhas elementos 2-1 */
-/* .cont5-linha21{
-    position: absolute;
-    right: 65%;
-    top: 60px;
-    width: 400px;
-    height: 150px;
-    border-radius: 100px 0px 0px 0px;
-    border: 3px solid rgb(255, 255, 255);
-    border-bottom: none;
-    border-right: none;
+    height: 60vh;
 }
-.cont5-linha22{
+/* começo elementos 1 */
+.conteudo-5-elemento-2-1{
+    width: 40%;
+    height: 20%;
     position: absolute;
-    top: 50px;
-    right: 43%;
-    width: 700px;
-    height: 3px;
+    left: 15vh;
+    top: 7vh;
+}
+.conteudo-5-linhas-2{
+    width: 100%;
+    height: 100%; 
+}
+.conteudo5-linha-2-1{
+    margin-left:40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 85%;
+    height: 2%;
     background-color: white;
-} */
-/* fim linhas elementos 2-1 */
-/* começo imagens elementos 2-2 */
-/* .cont5-imagens21{
+}
+.conteudo5-linha-2-2{
+    margin-left:25%;
+    width: 80%;
+    height: 20vh;
+    border-radius: 10vh 0vh 0vh 0vh;
+    border: 0.5vh solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-right: none; 
+}
+/* fim elementos 1 */
+
+/* começo elementos 2 */
+.conteudo-5-elemento-2-2{
+    width: 30%;
+    height: 16%;
+    position: absolute;
+    left: 65%;
+    top: 10vh;
+}
+.conteudo-5-imagems-2{
+    display: flex;
+}
+.conteudo-5-imagem-2-1{
+    background-color: white;
+    width: 18vh;
+    height: 24vh;
+    border-radius: 3vh;
+    border: 1vh solid #ccc;
+}
+.conteudo-5-decoração-imagem-2-1{
+    background-color: #ccc;
+    width: 5vh;
+    height: 14vh;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+    margin-top: 7vh;
+}
+/* fim elemento2 */
+
+/* começo elementos3 */
+.conteudo-5-elemento-2-3{
+    width: 15%;
+    height: 5%;
+    color: white;
+    font-size: 8vh;
+    position: absolute;
+    left: 50vh;
+    top: 10vh;
+}
+/* fim elementos3 */
+
+/* começo elemento 4 */
+.conteudo-5-elemento-2-4{
+    width: 70%;
+    height: 18.2%;
     display: flex;
     position: absolute;
-    right: 5%;
-    top: 40px;
-}
-.cont5-imag21{
-    background-color: white;
-    width: 167px;
-    height: 216px;
-    margin-right: 50px;
-    border-radius: 30px;
-    border: 8px solid #ccc;
-} */
-/* fim imagem elementos 2-2 */
-/* começo decoração das imagens elemento 2-2 */
-/* .cont5-dec-imag21{
-    position: absolute;
-    left: 167px;
-    top: 90px;
-    background-color: #ccc;
-    width: 50px;
-    height: 100px;
-    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-}
-.cont5-dec-imag22{
-    position: absolute;
-    left: 384px;
-    top: 30px;
-    background-color: #ccc;
-    width: 50px;
-    height: 100px;
-    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-
-} */
-/* fim decoração das imagens elemento 2-2 */
-/* começo elementos 2-3 */
-/* .cont5-elementos23{
-    color: white;
-    font-size: 400%;
-    position: absolute;
-    left: 450px;
-    top: 70px;
-} */
-/* fim elementos 2-3 */
-/* começo elemento 2-4 */
-/* começo elemento 2-4 quadrado */
-/* .cont5-quadrado2{
-    background-color: #5A5B77;
-    border-radius: 50px;
-    width: 1300px;
-    height: 250px;
-    position: absolute;
-    right: 10%;
-    top: 150px;
+    left: 23%;
+    top: 20vh;
     z-index: -1;
-} */
-/* fime elemento 2-4 quadrado */
-/* começo elemento 2-4 texto */
-/* .cont5-texto-quadrado2{
+}
+.conteudo-5-quadrado-2-1{
+    background-color: #5A5B77;
+    border-radius: 6vh;
+    width: 140vh;
+    height: 25vh;
+}
+.conteudo-5-texto-quadrado-2-1{
     color: white;
-    font-size: 170%;
+    font-size: 3.5vh;
     position: absolute;
-    left: 450px;
-    top: 200px;
-    right: 750px;
-} */
-/* fim elemento 2-4 texto */
-/* fim elemento 2-4 */
+    left: 3vh;
+    right: 59vh;
+    top: 5vh;
+}
+/* fim elemento 4 */
 /* fim do conteudo 5-2 */
 
+
+
 /* começo do conteudo 5-3 */
-/* .conteudo5-3{
+/* começo conteudo 5-1 */
+.conteudo-5-3{
     position: absolute;
+    top: 507vh;
     width: 100%;
-    top: 1000px;
-} */
-/* começo conteudo 5-3 */
-/* começo linhas elementos 5-1 */
-/* .cont5-linha31{
+    height: 60vh;
+}
+/* começo elementos 1 */
+.conteudo-5-elemento-3-1{
+    width: 40%;
+    height: 20%;
     position: absolute;
-    left: 63%;
-    top: 60px;
-    width: 400px;
-    height: 150px;
-    border-radius: 0px 100px 0px 0px;
-    border: 3px solid rgb(255, 255, 255);
-    border-bottom: none;
-    border-left: none;
-} */
-/* .cont5-linha32{
-    position: absolute;
-    top: 50px;
-    left: 40%;
-    width: 700px;
-    height: 3px;
+    left: 85vh;
+    top: 7vh;
+}
+.conteudo-5-linhas-3{
+    width: 100%;
+    height: 100%; 
+}
+.conteudo5-linha-3-1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 85%;
+    height: 2%;
     background-color: white;
-} */
-/* fim linhas elementos5-1 */
-/* começo imagens elementos 5-2 */
-/* .cont5-imagens31{
+}
+.conteudo5-linha-3-2{
+    margin-left:30%;
+    width: 70%;
+    height: 20vh;
+    border-radius: 0vh 10vh 0vh 0vh;
+    border: 0.5vh solid rgb(255, 255, 255);
+    border-bottom: none;
+    border-left: none; 
+}
+/* fim elementos 1 */
+
+/* começo elementos 2 */
+.conteudo-5-elemento-3-2{
+    width: 30%;
+    height: 16%;
+    position: absolute;
+    left: 10vh;
+    top: 10vh;
+}
+.conteudo-5-imagems-3{
+    display: flex;
+}
+.conteudo-5-imagem-3-1{
+    background-color: white;
+    width: 18vh;
+    height: 24vh;
+    border-radius: 3vh;
+    border: 1vh solid #ccc;
+}
+.conteudo-5-decoração-imagem-3-1{
+    background-color: #ccc;
+    width: 5vh;
+    height: 14vh;
+    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
+    margin-top: 7vh;
+}
+/* fim elemento2 */
+/* começo elementos3 */
+.conteudo-5-elemento-3-3{
+    width: 15%;
+    height: 5%;
+    color: white;
+    font-size: 8vh;
+    position: absolute;
+    left: 73vh;
+    top: 10vh;
+}
+/* fim elementos3 */
+/* começo elemento 4 */
+.conteudo-5-elemento-3-4{
+    width: 70%;
+    height: 18.2%;
     display: flex;
     position: absolute;
-    left: 100px;
-    top: 40px;
-}
-.cont5-imag31{
-    background-color: white;
-    width: 167px;
-    height: 216px;
-    margin-right: 50px;
-    border-radius: 30px;
-    border: 8px solid #ccc;
-} */
-/* fim imagem elementos 5-2 */
-/* começo decoração das imagens elemento 5-2 */
-/* .cont5-dec-imag31{
-    position: absolute;
-    left: 167px;
-    top: 90px;
-    background-color: #ccc;
-    width: 50px;
-    height: 100px;
-    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-}
-.cont5-dec-imag32{
-    position: absolute;
-    left: 384px;
-    top: 30px;
-    background-color: #ccc;
-    width: 50px;
-    height: 100px;
-    clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-
-} */
-/* fim decoração das imagens elemento 5-2 */
-/* começo elementos 5-3 */
-/* .cont5-elementos33{
-    color: white;
-    font-size: 400%;
-    position: absolute;
-    left: 750px;
-    top: 70px;
-} */
-/* fim elementos 5-3 */
-/* começo elemento 5- 4 */
-/* começo elemento 5- 4 quadrado */
-/* .cont5-quadrado32{
-    background-color: #5A5B77;
-    border-radius: 50px;
-    width: 1300px;
-    height: 250px;
-    position: absolute;
-    left: 150px;
-    top: 150px;
+    left: 15vh;
+    top: 20vh;
     z-index: -1;
-} */
-/* fim elemento 5-4 quadrado */
-/* começo elemento 5-4 texto */
-/* .cont5-texto-quadrado32{
+}
+.conteudo-5-quadrado-3-1{
+    background-color: #5A5B77;
+    border-radius: 6vh;
+    width: 140vh;
+    height: 25vh;
+}
+.conteudo-5-texto-quadrado-3-1{
     color: white;
-    font-size: 170%;
+    font-size: 3.5vh;
     position: absolute;
-    left: 750px;
-    top: 200px;
-    right: 450px;
-} */
-/* fim elemento 5-4 texto */
+    left: 58vh;
+    top: 5vh;
+}
+/* fim elemento 4 */
+/* fim  conteudo 5-1 */
 /* fim do conteudo 5-3 */
 /* fim conteudo 5 */
