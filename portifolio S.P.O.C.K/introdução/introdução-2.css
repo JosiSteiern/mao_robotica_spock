@@ -7,13 +7,13 @@
 body{
     background-image: url(/extra/img/1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-position: center;
     overflow-x: hidden;
 }
 .container-main{
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 
@@ -361,7 +361,7 @@ nav{
 /* começo conteudo 4 */
 /* começo formas conteudo 4 */
 .conteudo-4{
-    margin-top: 10vh;
+    margin-top: 30vh;
 }
 .conteudo-4-elemento-1{
     width: 40%;
@@ -428,7 +428,7 @@ nav{
 }
 .conteudo-4-texto-3{
     color: white;
-    font-size: 2vh;
+    font-size: 2.8vh;
     padding: 10%;
 
 }
@@ -491,11 +491,18 @@ nav{
     display: flex;
 }
 .conteudo-5-imagem-1{
-    background-color: white;
-    width: 18vh;
+    background-color: rgb(19, 19, 19);
+    width: 20vh;
     height: 24vh;
     border-radius: 3vh;
     border: 1vh solid #ccc;
+}
+.conteudo-5-imagem-1 img{
+    object-fit:cover;
+    width: 18vh;
+    height: 22vh;
+    overflow: hidden;
+    border-radius: 2vh;
 }
 .conteudo-5-decoração-imagem-1{
     background-color: #ccc;
@@ -594,11 +601,18 @@ nav{
     display: flex;
 }
 .conteudo-5-imagem-2-1{
-    background-color: white;
-    width: 18vh;
+    background-color: rgb(19, 19, 19);
+    width: 20vh;
     height: 24vh;
     border-radius: 3vh;
     border: 1vh solid #ccc;
+}
+.conteudo-5-imagem-2-1 img{
+    object-fit:cover;
+    width: 18vh;
+    height: 22vh;
+    overflow: hidden;
+    border-radius: 2vh;
 }
 .conteudo-5-decoração-imagem-2-1{
     background-color: #ccc;
@@ -699,11 +713,18 @@ nav{
     display: flex;
 }
 .conteudo-5-imagem-3-1{
-    background-color: white;
-    width: 18vh;
+    background-color: rgb(19, 19, 19);
+    width: 20vh;
     height: 24vh;
     border-radius: 3vh;
     border: 1vh solid #ccc;
+}
+.conteudo-5-imagem-3-1 img{
+    object-fit:cover;
+    width: 18vh;
+    height: 22vh;
+    overflow: hidden;
+    border-radius: 2vh;
 }
 .conteudo-5-decoração-imagem-3-1{
     background-color: #ccc;
