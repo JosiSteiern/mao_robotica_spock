@@ -12,7 +12,7 @@ body{
     
 }
 .container-main{
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -208,10 +208,11 @@ nav{
 }
 .container-1-imagem-3{
     position: absolute;
-    left: 14%;
-    top: 28vh;
+    left: 15%;
+    top: 26vh;
     width: 23vh;
     z-index: 1;
+    filter: drop-shadow( -6vh 5vh 1vh rgb(0, 0, 0, 0.7));
 }
 .container-1-imagem-4{
     position: absolute;
@@ -221,15 +222,8 @@ nav{
     filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 2;
 }
-.container-1-imagem-5{
-    position: absolute;
-    top: 20vh;
-    left: 18%;
-    width: 23vh;
-    z-index: 3;
-}
 .container-1-edit-imagem{
-    width: 150%;
+    width: 250%;
 } 
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
@@ -269,6 +263,7 @@ nav{
     justify-content: space-around;
 }
 .linha-2-1{
+    position: relative;
     width: 25%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.322);
@@ -280,6 +275,22 @@ nav{
     object-fit: cover;
     overflow: hidden;;
 }
+
+#descricao-imagem1, #descricao-imagem2, #descricao-imagem3, #descricao-imagem4, #descricao-imagem5 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.75);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    color: #cccccc;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+
 .conteudo-2-linha-2{
     margin-top: 3.4%;
     height: 45%;
@@ -289,6 +300,7 @@ nav{
 
 }
 .linha-2-2{
+    position: relative;
     width: 25%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.322);
@@ -363,6 +375,7 @@ nav{
     height: 100%;
     overflow: hidden;
 }
+
 .conteudo-3-imagem-2{
     background-color: rgba(255, 255, 255, 0.322);
     border: 1vh solid #cccccccc;
@@ -393,6 +406,8 @@ nav{
     overflow: hidden;
     object-fit: cover;
 }
+
+
 /* fim imagens conteudo 3 */
 /* fim conteudo 3 */
 
@@ -500,9 +515,9 @@ nav{
 .conteudo-5-texto-2{
     width: 100%;
     height: 10%;
-    font-size: 6vh;
+    font-size: 4vh;
     color: white;
-    padding-left: 20vh;
+    padding-left: 10vh;
     display: flex;
     align-items: center;
 }
