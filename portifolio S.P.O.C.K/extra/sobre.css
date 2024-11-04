@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da viewport para centralização vertical */
+}
+
+.container {
+    max-width: 800px;
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    color: #333;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os membros horizontalmente */
+}
+
+.member {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.photo-circle {
+    width: 100px; /* Ajuste o tamanho do círculo */
+    height: 100px; /* Ajuste o tamanho do círculo */
+    border-radius: 50%; /* Faz a borda ser circular */
+    overflow: hidden; /* Esconde o que ultrapassa o círculo */
+    margin: 0 auto 10px; /* Centraliza e adiciona espaço abaixo */
+}
+
+.photo-circle img {
+    width: 100%; /* Faz a imagem ocupar 100% da largura do círculo */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.member h3 {
+    margin: 10px 0 5px;
+    color: #007BFF;
+}
+
+.member p {
+    color: #555;
+}
