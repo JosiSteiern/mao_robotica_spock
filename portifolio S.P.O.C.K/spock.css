@@ -809,10 +809,11 @@ nav{
     height: 10vh;
     display: flex;
     align-items: center;
-    margin-left: 30%;
+    justify-content: center;
 }
 .rodape-paginas-1{
     color: white;
-    margin-right: 8%;
+    padding: 20px;
 }
+
 /* fim rodapé */
