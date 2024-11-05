@@ -190,7 +190,7 @@ nav{
     margin-left: 10%;
     margin-right: 5%;
 }
-.container-1-imagem-1{
+#container-1-imagem-1{
     position: absolute;
     background-color: #ffc800;
     filter: blur(20vh);
@@ -199,7 +199,7 @@ nav{
     border-radius: 50%;
     z-index: -2;
 }
-.container-1-imagem-2{
+#container-1-imagem-2{
     position: absolute;
     background-color: #ffc800c0;
     height: 60%;
@@ -215,7 +215,7 @@ nav{
     width: 23vh;
     z-index: 1;
 }
-.container-1-imagem-4{
+#container-1-imagem-4{
     position: absolute;
     top: 50vh;
     color: #F0CB46;
