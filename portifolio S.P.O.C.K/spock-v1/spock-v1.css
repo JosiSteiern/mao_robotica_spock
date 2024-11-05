@@ -218,7 +218,7 @@ nav{
     position: absolute;
     top: 55vh;
     color: #F0CB46;
-    font-size: 20vh;
+    font-size: 18vh;
     filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 2;
 }
