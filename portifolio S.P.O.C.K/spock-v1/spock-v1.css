@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
+    font-family: "Exo 2";
 }
 .container-main{
     width: 100%;
@@ -243,6 +246,7 @@ nav{
     font-size: 3vh;
     margin-bottom: 4vh;
     text-shadow: -0.5vh 0.5vh 0.5vh black;
+    text-align: justify;
 }
 
 /* fim texto conteudo 1 */
@@ -321,6 +325,7 @@ nav{
     color: white;
     font-size: 3.5vh;
     text-shadow: -0.8vh 0.8vh 0.3vh black;
+    text-align: justify;
 }
 /* fim conteudo 2 */
 
@@ -329,10 +334,10 @@ nav{
 /* começo conteudo 3 */
 /* começo texto conteudo 3 */
 .conteudo-3{
-    margin-top: 10vh;
+    margin-top: 8%;
     color: white;
     width: 100%;
-    height: 80vh;
+    
     font-size: 150%;
     display: flex;
 }
@@ -343,16 +348,14 @@ nav{
 }
 .conteudo-3-texto-1{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
     font-size: 7vh;
     margin-bottom: 5vh;
     text-shadow: -0.8vh 0.8vh 0.3vh black;
 }
 .conteudo-3-texto-2{
-    
-    font-size: 4vh;
-    margin-bottom: 3vh;
+    text-align: justify;
+    font-size: 3.2vh;
+    margin-top: 3vh;
 }
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
@@ -379,8 +382,8 @@ nav{
 .conteudo-3-imagem-2{
     background-color: rgba(255, 255, 255, 0.322);
     border: 1vh solid #cccccccc;
-    width:45vh;
-    height: 35vh;
+    width:36vh;
+    height: 32vh;
     position: absolute;
     left: 48%;
     top: 230vh;
@@ -412,49 +415,6 @@ nav{
 /* fim conteudo 3 */
 
 
-
-/* começo conteudo 4 */
-/* começo formas conteudo 4 */
-.conteudo-4{
-    margin-top: 15vh;
-}
-.conteudo-4-elemento-1{
-    width: 40%;
-    margin-left: 10%;
-    display: flex;
-}
-.conteudo-4-forma-1{
-    background-color: rgb(43, 37, 80);
-    filter: drop-shadow(-3vh 3vh 0.5vh rgba(0, 0, 0, 0.5));
-    width: 100%;
-    height: 100vh;
-}
-.conteudo-4-elemento-2{
-    position: absolute;
-    margin-top: -40%;
-    left: 45%;
-    width: 45%;
-}
- .conteudo-4-forma-2{
-    background-color: rgb(56, 77, 148);
-    filter: drop-shadow(3vh 3vh );
-    width: 100%;
-    height: 50vh;
-}
-.conteudo-4-elemento-3{
-    position: absolute;
-    margin-top: -45%;
-    left: 15%;
-    width: 20vh;
-    height: 27vh;
-}
-.conteudo-4-formas-3{
-    background-color: rgb(60, 13, 114);
-    filter: drop-shadow(-2vh 2vh 1vh rgba(0, 0, 0, 0.5));
-    height: 100%;
-    width: 100%;
-}
-/* fim formas conteudo 4 */
 /* começo textos conteudo 4 */
 .conteudo-4-titulo{
     font-size: 7vh;
@@ -466,7 +426,7 @@ nav{
     color: white;
 }
 .conteudo-4-texto-1{
-    font-size: 2.6vh;
+    font-size: 2vh;
     color: white;
     width: 100%;
     height: 100vh;
@@ -483,7 +443,7 @@ nav{
 }
 .conteudo-4-texto-3{
     color: white;
-    font-size: 2vh;
+    font-size: 1vh;
     padding: 10%;
 
 }
@@ -494,14 +454,14 @@ nav{
 
 /* começo conteudo 5 */
 .conteudo-5{
-    margin-top: 8%;
+    margin-top: 15vh;
     width: 100%;
-    height: 100vh;
     display: flex;
+    align-items: center;
 }
 .conteudo-5-elemento-1{
-    width: 50%;
-    height: 100%;
+    margin-right: 10vh;
+    align-content: center;
 }
 .conteudo-5-texto-1{
     width: 100%;
@@ -513,98 +473,86 @@ nav{
 }
 .conteudo-5-texto-3{
     width: 100%;
-    font-size: 3.5vh;
+    font-size: 1vh;
     color: white;
     padding-left: 10vh;
-    font-size: 20px;
+    font-size: 3.2vh;
     text-align: justify;
     margin-top: 4vh;
 
 }
 
-.conteudo-5-elemento-2{
-    width: 60%;
-    height: 100%;
-    margin-top: 7%;
-}
-.conteudo-5-linha-1{
-    width: 100%;
-    height: 48%;
-    display: flex;
-}
-.conteudo-5-imagem-1{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 90%;
-    margin-left: 10%;
-}
-.conteudo-5-imagem-1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
-.conteudo-5-imagem-2{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 90%;
-    margin-left: 10%;
-}
-.conteudo-5-imagem-2 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+.carousel-fora{
+    overflow-x: hidden;
+    width: 909px;
+    margin: auto;
 }
 
-.conteudo-5-linha-2{
+.carousel {
+    position: relative;
+    width: 909px; 
+    margin: auto;
     margin-top: 4%;
-    width: 100%;
-    height: 48%;
+    overflow-y: visible;
+}
+
+.carousel-images {
     display: flex;
+    transition: transform 0.5s ease-in-out;
 }
-.conteudo-5-imagem-3{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 90%;
-    margin-left: 10%;
-}
-.conteudo-5-imagem-3 img{
-    width: 100%;
-    height: 100%;
+
+.carousel-images img {
+    width: 300px; 
+    flex-shrink: 0;
+    height: 350px;
+    border: #cccccc 2px solid;
+    border-radius: 6px;
+    margin-left: 3px;
     object-fit: cover;
-    overflow: hidden;
+    transition: transform 0.2s ease;
 }
-.conteudo-5-imagem-4{
-    background-color: rgba(255, 255, 255, 0.322);
-    border: 1vh solid #cccccccc;
-    width: 35%;
-    height: 90%;
-    margin-left: 10%;
+
+.carousel-images img:hover {
+    transform: translateY(-10px);
 }
-.conteudo-5-imagem-4 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
 }
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
+
+button:hover{
+    background-color: #cccccc;
+    color: #2c2d2d;
+}
+
 /* fim conteudo 5 */
 
 
 
 /* começo conteudo 6 */
 .conteudo-6{
-    margin-top: 18%;
+    margin-top: 8%;
     width: 100%;
-    height: 90vh;
     display: flex;
 }
 .conteudo-6-elemento-1{
-    width: 50%;
-    height: 100%;
+    width: 20%;
 }
 .conteudo-6-video{
     display: flex;
@@ -612,12 +560,12 @@ nav{
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 10vh;
-    top: 540vh;
+    right: 10vh;
     width: 95vh;
     height: 70vh;
     background-color: #cccccc2a;
     border-radius: 10vh;
+    margin-top: 9vh;
 }
 .conteudo-6-video-1{
     position: relative;
@@ -636,26 +584,22 @@ nav{
 }
 
 .conteudo-6-elemento-2{
-    width: 50%;
+    width: 39%;
     height: 100%;
+    margin-left: 10vh;
 }
 .conteudo-6-texto-1{
-    height: 10%;
     color: white;
     font-size: 7vh;
-    padding-left: 10vh;
+    margin-bottom: 5vh;
 }
 .conteudo-6-texto-2{
     height: 30%;
     color: white;
     font-size: 3.2vh;
-    padding-left: 10vh;
-    padding-top: 5vh;
-    padding-right: 10vh;
     text-align: justify;
 }
 /* fim conteudo 6 */
-
 
 .baixar-codigo{
     border: 3px solid #cccccc;
@@ -663,21 +607,41 @@ nav{
     padding: 6px;
     background-color: rgb(255, 255, 255, 0.4);
     height: 30px;
-    position: relative;
     text-align: center;
     color: #2c2d2d;
     font-weight: bold;
     font-size: 4vh;
 }
+
+.baixar-pdf{
+    border: 3px solid #cccccc;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: rgb(255, 255, 255, 0.4);
+    height: 30px;
+    text-align: center;
+    color: #2c2d2d;
+    font-weight: bold;
+    font-size: 4vh;
+    width: 300px;
+}
+
 .conteudo-codigo :hover{
     color: #cccccc;
     background-color: #2c2d2d;
 }
 
+.area-baixar{
+    display: flex;
+    justify-content: space-evenly;
+    outline: #003A79 solid 2px;
+    width: 80%;
+}
+
 
 /* começo conteudo 7 */
 .conteudo-7{
-    margin-top: 2%;
+    margin-top: 8%;
     width: 100%;
     height: 90vh;
 }

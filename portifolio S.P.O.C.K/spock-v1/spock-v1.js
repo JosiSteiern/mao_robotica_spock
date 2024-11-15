@@ -43,3 +43,34 @@ document.getElementById("cont-2-img-5").addEventListener("mouseenter", ()=>{
 document.getElementById("cont-2-img-5").addEventListener("mouseleave", ()=>{
     document.getElementById("descricao-imagem5").style.display = "none";
 })
+
+const botaoAnterior = document.querySelector(".prev");
+const botaoProximo = document.querySelector(".next");
+const imagensCarrossel = document.querySelector(".carousel-images");
+const totalImagens = document.querySelectorAll(".carousel-images img").length;
+
+const imagensVisiveis = 3; 
+let indiceAtual = 0;
+
+function atualizarCarrossel() {
+    const deslocamento = -indiceAtual * 304 * imagensVisiveis; 
+    imagensCarrossel.style.transform = `translateX(${deslocamento}px)`;
+}
+
+botaoAnterior.addEventListener("click", () => {
+    if (indiceAtual > 0) {
+        indiceAtual--;
+    } else {
+        indiceAtual = Math.ceil(totalImagens / imagensVisiveis) - 1; 
+    }
+    atualizarCarrossel();
+});
+
+botaoProximo.addEventListener("click", () => {
+    if (indiceAtual < Math.ceil(totalImagens / imagensVisiveis) - 1) {
+        indiceAtual++;
+    } else {
+        indiceAtual = 0; 
+    }
+    atualizarCarrossel();
+});
