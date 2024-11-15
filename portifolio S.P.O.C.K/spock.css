@@ -61,20 +61,20 @@ nav{
 .linha-horizontal{
     position: absolute;
     display: flex;
-    left: 50px;
-    top: 135px;
-    height: 2px;
-    max-width: 100%;
+    left: 3vw;
+    top: 14vh;
+    height: 0.2vh;
+    width: 100%;
     
 }
 .linha-h1{
     background-color: white;
-    width: 1700px;
-    margin-right: 1%;
+    width: 89vw;
+    margin-right: 0.5%;
 }
 .linha-h2{
     background-color: white;
-    width: 2%;
+    width: 2vw;
     margin-left: 1%;
 }
 
@@ -309,7 +309,7 @@ nav{
     display: flex;
 }
 .conteudo-3-texto{
-    width: 80%;
+    width: 45%;
     padding: 3%;
     padding-top: 0;
     text-align: justify;
@@ -318,24 +318,23 @@ nav{
     display: flex;
     justify-content: start;
     margin-bottom: 50px;
-    font-size: 7vh;
+    font-size: 8vh;
     margin-bottom: 5vh;
     text-shadow: -0.8vh 0.8vh 0.3vh black;
 }
 .conteudo-3-texto-2{
     
-    font-size: 4vh;
+    font-size: 3.5vh;
     margin-bottom: 3vh;
 }
 /* fim texto conteudo 3 */
 /* começo imagens conteudo 3 */
 .conteudo-3-imagem{
     width: 55%;
-    margin: 5% 0%;
 }
 .conteudo-3-imagem-1{
     position: absolute;
-    top: 215vh;
+    top: 195vh;
     left: 60%;
     background-color: rgba(255, 255, 255, 0.205);
     width:60vh;
@@ -344,7 +343,7 @@ nav{
 }
 .conteudo-3-imagem-2{
     position: absolute;
-    top: 210vh;
+    top: 190vh;
     left: 55%;
     background-color: rgba(255, 255, 255, 0.514);
     width: 25vh;
@@ -353,7 +352,7 @@ nav{
 }
 .conteudo-3-imagem-3{
     position: absolute;
-    top: 250vh;
+    top: 230vh;
     left: 50%;
     background-color: rgba(255, 255, 255, 0.671);
     width: 40vh;
@@ -512,11 +511,12 @@ nav{
     border-radius: 2vh;
 }
 .conteudo-5-decoração-imagem-1{
-    background-color: #ccc;
-    width: 10vh;
-    height: 14vh;
+    border: 30px solid #beb6b6;
+    background-color: #beb6b6;
+    width: 5vh;
+    height: 12vh;
     clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-    margin-top: 7vh;
+    margin-top: 8vh;
 }
 /* fim elemento2 */
 /* começo elementos3 */
@@ -536,7 +536,7 @@ nav{
     height: 18.2%;
     display: flex;
     position: absolute;
-    left: 15vh;
+    left: 30vh;
     top: 20vh;
     z-index: -1;
 }
@@ -601,7 +601,7 @@ nav{
     width: 30%;
     height: 16%;
     position: absolute;
-    left: 65%;
+    left: 59%;
     top: 10vh;
 }
 .conteudo-5-imagems-2{
@@ -622,11 +622,12 @@ nav{
     border-radius: 2vh;
 }
 .conteudo-5-decoração-imagem-2-1{
-    background-color: #ccc;
+    border: 30px solid #beb6b6;
+    background-color: #beb6b6;
     width: 5vh;
-    height: 14vh;
+    height: 12vh;
     clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-    margin-top: 7vh;
+    margin-top: 8vh;
 }
 /* fim elemento2 */
 
@@ -734,11 +735,12 @@ nav{
     border-radius: 2vh;
 }
 .conteudo-5-decoração-imagem-3-1{
-    background-color: #ccc;
+    border: 30px solid #beb6b6;
+    background-color: #beb6b6;
     width: 5vh;
-    height: 14vh;
+    height: 12vh;
     clip-path: polygon(0 0, 20% 20%, 40% 30%, 60% 30%, 80% 20%, 100% 0, 100% 100%, 80% 80%, 60% 70%, 40% 70%, 20% 80%, 0 100%);
-    margin-top: 7vh;
+    margin-top: 8vh;
 }
 /* fim elemento2 */
 /* começo elementos3 */
@@ -758,7 +760,7 @@ nav{
     height: 18.2%;
     display: flex;
     position: absolute;
-    left: 15vh;
+    left: 30vh;
     top: 20vh;
     z-index: -1;
 }

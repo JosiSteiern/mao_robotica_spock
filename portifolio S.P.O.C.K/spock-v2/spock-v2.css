@@ -208,10 +208,11 @@ nav{
 }
 .container-1-imagem-3{
     position: absolute;
-    left: 14%;
-    top: 28vh;
+    left: 15%;
+    top: 26vh;
     width: 23vh;
     z-index: 1;
+    filter: drop-shadow( -6vh 5vh 1vh rgb(0, 0, 0, 0.7));
 }
 .container-1-imagem-4{
     position: absolute;
@@ -221,15 +222,8 @@ nav{
     filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 2;
 }
-.container-1-imagem-5{
-    position: absolute;
-    top: 20vh;
-    left: 18%;
-    width: 23vh;
-    z-index: 3;
-}
 .container-1-edit-imagem{
-    width: 150%;
+    width: 250%;
 } 
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
@@ -264,13 +258,13 @@ nav{
     height: 70vh;
 }
 .conteudo-2-linha-1{
-    height: 45%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .linha-2-1{
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.322);
     border: 1vh solid #cccccccc;
@@ -278,21 +272,21 @@ nav{
 }
 .conteudo-2-linha-2{
     margin-top: 3.4%;
-    height: 45%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 
 }
 .linha-2-2{
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.322);
     border: 1vh solid #cccccccc;
     
 }
 .linha-2-3{
-    width: 28%;
+    width: 30%;
     height: 100%;
     text-align: justify;
 }

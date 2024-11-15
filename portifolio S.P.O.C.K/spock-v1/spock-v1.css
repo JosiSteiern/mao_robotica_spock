@@ -634,7 +634,6 @@ button:hover{
 .area-baixar{
     display: flex;
     justify-content: space-evenly;
-    outline: #003A79 solid 2px;
     width: 80%;
 }
 
