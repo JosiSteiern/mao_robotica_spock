@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,7 @@ background-color: black;    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
+    font-family: "Exo 2";
 }
 .container-main{
     max-width: 100%;
@@ -207,19 +210,30 @@ nav{
 }
 .container-1-imagem-3{
     position: absolute;
-    left: 14%;
-    top: 28vh;
+    left: 15%;
+    top: 26vh;
     width: 23vh;
+<<<<<<< HEAD
     z-index: -1;
+=======
+    z-index: 1;
+    filter: drop-shadow( -6vh 5vh 1vh rgb(0, 0, 0, 0.7));
+>>>>>>> a09864e04cae8cb9fe1ee542b37d1d443994d696
 }
 .container-1-imagem-4{
     position: absolute;
     top: 55vh;
+<<<<<<< HEAD
     color: #f0cb467a;
     font-size: 20vh;
+=======
+    color: #F0CB46;
+    font-size: 18vh;
+>>>>>>> a09864e04cae8cb9fe1ee542b37d1d443994d696
     filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 0;
 }
+<<<<<<< HEAD
 .container-1-imagem-5{
     position: absolute;
     top: 20vh;
@@ -227,8 +241,10 @@ nav{
     width: 23vh;
     z-index: 1;
 }
+=======
+>>>>>>> a09864e04cae8cb9fe1ee542b37d1d443994d696
 .container-1-edit-imagem{
-    width: 150%;
+    width: 250%;
 } 
 /* começo imagem conteudo 1 */
 /* começo texto conteudo 1 */
@@ -265,13 +281,13 @@ nav{
     height: 70vh;
 }
 .conteudo-2-linha-1{
-    height: 45%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .linha-2-1{
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.322);
     border: 1vh solid #cccccccc;
@@ -279,21 +295,21 @@ nav{
 }
 .conteudo-2-linha-2{
     margin-top: 3.4%;
-    height: 45%;
+    height: 50%;
     width: 100%;
     display: flex;
     justify-content: space-around;
 
 }
 .linha-2-2{
-    width: 25%;
+    width: 30%;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.322);
     border: 1vh solid #cccccccc;
     
 }
 .linha-2-3{
-    width: 28%;
+    width: 30%;
     height: 100%;
     text-align: justify;
 }
