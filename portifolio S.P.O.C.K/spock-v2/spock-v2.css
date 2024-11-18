@@ -5,8 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(/extra/img/1.jpg);
-    background-size: cover;
+background-color: black;    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     overflow-x: hidden;
@@ -36,7 +35,7 @@ nav{
 .logo{
     width: 15%;
     height: 6vh;
-    color: #F0CB46;
+    color: #f0cb469a;
     font-size: 5vh;
 } 
 .logo:hover{
@@ -50,7 +49,7 @@ nav{
 }
 .paginas:hover{
     transition: 1s;
-    color: #F0CB46;
+    color: #f0cb4681;
 }
 /* fim cabeçalho */
 
@@ -100,7 +99,7 @@ nav{
     position: absolute;
     top: 70vh;
     right: -50vh;
-    background-color: #003A79;
+    background-color: #003b7971;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -111,7 +110,7 @@ nav{
     position: absolute;
     top: 160vh;
     left: -50vh;
-    background-color: #003A79;
+    background-color: #003b7979;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -122,7 +121,7 @@ nav{
     position: absolute;
     top: 270vh;
     left: -50vh;
-    background-color: #003A79;
+    background-color: #003b7971;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -133,7 +132,7 @@ nav{
     position: absolute;
     top: 300vh;
     right: -50vh;
-    background-color: #003A79;
+    background-color: #003b7980;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -144,7 +143,7 @@ nav{
     position: absolute;
     top: 200vh;
     right: -50vh;
-    background-color: #FFC800;
+    background-color: #ffc80065;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -155,7 +154,7 @@ nav{
     position: absolute;
     top: 400vh;
     right: -50vh;
-    background-color: #ffc800;
+    background-color: #ffc80059;
     filter: blur(30vh);
     height: 90vh;
     width: 65vh;
@@ -166,7 +165,7 @@ nav{
     position: absolute;
     top: 430vh;
     left: -50vh;
-    background-color: #ffc800;
+    background-color: #ffc80059;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -190,43 +189,43 @@ nav{
 }
 .container-1-imagem-1{
     position: absolute;
-    background-color: #ffc800;
+    background-color: #ffc8004f;
     filter: blur(20vh);
     height: 70%;
     width: 30%;
     border-radius: 50%;
-    z-index: -2;
+    z-index: -3;
 }
 .container-1-imagem-2{
     position: absolute;
-    background-color: #ffc800c0;
+    background-color: #ffc80054;
     height: 60%;
     width: 30%;
     border-radius: 50%;
     filter: drop-shadow(-4vh 4vh 2vh );
-    z-index: -1;
+    z-index: -2;
 }
 .container-1-imagem-3{
     position: absolute;
     left: 14%;
     top: 28vh;
     width: 23vh;
-    z-index: 1;
+    z-index: -1;
 }
 .container-1-imagem-4{
     position: absolute;
     top: 55vh;
-    color: #F0CB46;
+    color: #f0cb467a;
     font-size: 20vh;
     filter: drop-shadow( -1vh 1vh 1vh black);
-    z-index: 2;
+    z-index: 0;
 }
 .container-1-imagem-5{
     position: absolute;
     top: 20vh;
     left: 18%;
     width: 23vh;
-    z-index: 3;
+    z-index: 1;
 }
 .container-1-edit-imagem{
     width: 150%;
@@ -239,11 +238,13 @@ nav{
 .container-2-texto{
     color: white;
     padding: 10%;
+    z-index: 99;
 }
 .container-2-texto-1{
     font-size: 4vh;
     margin-bottom: 1vh;
     text-shadow: -1vh 1vh 0.5vh black;
+   
 }
 .container-2-texto-2{
     font-size: 3vh;

@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 20px;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Define a altura da viewport para centralização vertical */
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
 }
 
 .container {
     max-width: 800px;
-    text-align: center; /* Centraliza o texto */
+    text-align: center; 
 }
 
 h1 {
@@ -21,7 +21,7 @@ h1 {
 .team {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Centraliza os membros horizontalmente */
+    justify-content: center; 
 }
 
 .member {
@@ -35,16 +35,16 @@ h1 {
 }
 
 .photo-circle {
-    width: 100px; /* Ajuste o tamanho do círculo */
-    height: 100px; /* Ajuste o tamanho do círculo */
-    border-radius: 50%; /* Faz a borda ser circular */
-    overflow: hidden; /* Esconde o que ultrapassa o círculo */
-    margin: 0 auto 10px; /* Centraliza e adiciona espaço abaixo */
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 0 auto 10px; 
 }
 
 .photo-circle img {
-    width: 100%; /* Faz a imagem ocupar 100% da largura do círculo */
-    height: auto; /* Mantém a proporção da imagem */
+    width: 100%; 
+    height: auto; 
 }
 
 .member h3 {

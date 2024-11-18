@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body{
-    background-image: url(/extra/img/1.jpg);
+    background-color: black;
     background-size: cover;
     background-repeat: repeat;
     background-position: center;
@@ -36,7 +36,7 @@ nav{
 .logo{
     width: 15%;
     height: 6vh;
-    color: #F0CB46;
+    color: #f0cb4667;
     font-size: 5vh;
 } 
 .logo:hover{
@@ -50,7 +50,7 @@ nav{
 }
 .paginas:hover{
     transition: 1s;
-    color: #F0CB46;
+    color: #f0cb4688;
 }
 /* fim cabeçalho */
 
@@ -102,7 +102,7 @@ nav{
     position: absolute;
     top: 70vh;
     right: -50vh;
-    background-color: #003A79;
+    background-color: #003b7960;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -113,7 +113,7 @@ nav{
     position: absolute;
     top: 160vh;
     left: -50vh;
-    background-color: #003A79;
+    background-color: #003b7973;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -124,7 +124,7 @@ nav{
     position: absolute;
     top: 270vh;
     left: -50vh;
-    background-color: #003A79;
+    background-color: #003b7971;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -135,7 +135,7 @@ nav{
     position: absolute;
     top: 300vh;
     right: -50vh;
-    background-color: #003A79;
+    background-color: #003b7970;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
@@ -146,7 +146,7 @@ nav{
     position: absolute;
     top: 200vh;
     right: -50vh;
-    background-color: #FFC800;
+    background-color: #ffc8008a;
     filter: blur(30vh);
     height: 100vh;
     width: 65vh;
