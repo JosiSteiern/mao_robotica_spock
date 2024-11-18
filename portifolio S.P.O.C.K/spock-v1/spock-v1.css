@@ -38,7 +38,7 @@ nav{
 .logo{
     width: 15%;
     height: 6vh;
-    color: #f0cb469a;
+    color: #f0cb46a4;
     font-size: 5vh;
 } 
 .logo:hover{
@@ -219,13 +219,8 @@ nav{
 .container-1-imagem-4{
     position: absolute;
     top: 55vh;
-<<<<<<< HEAD
     color: #f0cb4675;
     font-size: 20vh;
-=======
-    color: #F0CB46;
-    font-size: 18vh;
->>>>>>> a09864e04cae8cb9fe1ee542b37d1d443994d696
     filter: drop-shadow( -1vh 1vh 1vh black);
     z-index: 2;
 }
